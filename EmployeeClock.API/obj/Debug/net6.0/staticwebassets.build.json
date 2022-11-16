@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Jvgqx3nqKz7HGfNDUwVufzPE4YoU+4YkIzE9xWj4m2s=",
+  "Source": "EmployeeClock.API",
+  "BasePath": "_content/EmployeeClock.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

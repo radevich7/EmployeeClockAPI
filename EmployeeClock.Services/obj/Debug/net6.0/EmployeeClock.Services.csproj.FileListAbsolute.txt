@@ -1,0 +1,12 @@
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\bin\Debug\net6.0\EmployeeClock.Services.deps.json
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\bin\Debug\net6.0\EmployeeClock.Services.dll
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\bin\Debug\net6.0\EmployeeClock.Services.pdb
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\EmployeeClock.Services.csproj.AssemblyReference.cache
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\EmployeeClock.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\EmployeeClock.Services.AssemblyInfoInputs.cache
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\EmployeeClock.Services.AssemblyInfo.cs
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\EmployeeClock.Services.csproj.CoreCompileInputs.cache
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\EmployeeClock.Services.dll
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\refint\EmployeeClock.Services.dll
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\EmployeeClock.Services.pdb
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Services\obj\Debug\net6.0\ref\EmployeeClock.Services.dll

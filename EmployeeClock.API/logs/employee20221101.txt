@@ -1,0 +1,152 @@
+2022-11-01 13:38:17.069 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-01 13:38:17.341 -06:00 [DBG] Hosting starting
+2022-11-01 13:38:18.205 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-01 13:38:18.312 -06:00 [INF] Now listening on: https://localhost:7251
+2022-11-01 13:38:18.313 -06:00 [INF] Now listening on: http://localhost:5251
+2022-11-01 13:38:18.313 -06:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-01 13:38:18.314 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-01 13:38:18.314 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-01 13:38:18.315 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-01 13:38:18.316 -06:00 [INF] Hosting environment: Development
+2022-11-01 13:38:18.318 -06:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-01 13:38:18.319 -06:00 [DBG] Hosting started
+2022-11-01 16:52:18.633 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-01 16:52:19.208 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-01 16:52:19.315 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-01 16:52:19.318 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-01 16:52:19.393 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-01 16:55:43.246 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-01 16:55:43.879 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-01 16:55:44.014 -06:00 [DBG] Migrating using database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.020 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.031 -06:00 [DBG] An error occurred using the connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.034 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.036 -06:00 [DBG] An error occurred using the connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.036 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.044 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.052 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-01 16:55:44.059 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2022-11-01 16:55:44.065 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-11-01 16:55:44.111 -06:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-11-01 16:55:44.112 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.115 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.177 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-01 16:55:44.179 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-01 16:55:44.202 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-01 16:55:44.202 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-01 16:55:44.202 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.203 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.203 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-11-01 16:55:44.223 -06:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-11-01 16:55:44.223 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.223 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.224 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.226 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.231 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-01 16:55:44.231 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-01 16:55:44.231 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.231 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.231 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-01 16:55:44.234 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-01 16:55:44.234 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.234 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.236 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-01 16:55:44.236 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-01 16:55:44.236 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.236 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.236 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-01 16:55:44.237 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-01 16:55:44.238 -06:00 [DBG] A data reader was disposed.
+2022-11-01 16:55:44.238 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.238 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.245 -06:00 [INF] Applying migration '20221101225219_EmployeeClockDBInitialMigration'.
+2022-11-01 16:55:44.305 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.305 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.306 -06:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-11-01 16:55:44.307 -06:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-11-01 16:55:44.308 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-01 16:55:44.308 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-01 16:55:44.308 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "EmployeeID" TEXT NOT NULL CONSTRAINT "PK_Employees" PRIMARY KEY,
+    "FirstName" TEXT NOT NULL,
+    "LastName" TEXT NOT NULL,
+    "Phone" TEXT NOT NULL,
+    "Email" TEXT NOT NULL,
+    "Address" TEXT NOT NULL,
+    "DateOfBirth" TEXT NOT NULL,
+    "DateOfHire" TEXT NOT NULL,
+    "DateOfQuit" TEXT NULL,
+    "EmergencyContactName" TEXT NULL,
+    "EmergencyContactPhone" TEXT NULL
+);
+2022-11-01 16:55:44.308 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "EmployeeID" TEXT NOT NULL CONSTRAINT "PK_Employees" PRIMARY KEY,
+    "FirstName" TEXT NOT NULL,
+    "LastName" TEXT NOT NULL,
+    "Phone" TEXT NOT NULL,
+    "Email" TEXT NOT NULL,
+    "Address" TEXT NOT NULL,
+    "DateOfBirth" TEXT NOT NULL,
+    "DateOfHire" TEXT NOT NULL,
+    "DateOfQuit" TEXT NULL,
+    "EmergencyContactName" TEXT NULL,
+    "EmergencyContactPhone" TEXT NULL
+);
+2022-11-01 16:55:44.308 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-01 16:55:44.308 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-01 16:55:44.308 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "TimeTransactions" (
+    "TransactionID" TEXT NOT NULL CONSTRAINT "PK_TimeTransactions" PRIMARY KEY,
+    "StartTime" TEXT NULL,
+    "EndTime" TEXT NULL,
+    "EmployeeID" TEXT NOT NULL,
+    CONSTRAINT "FK_TimeTransactions_Employees_EmployeeID" FOREIGN KEY ("EmployeeID") REFERENCES "Employees" ("EmployeeID") ON DELETE CASCADE
+);
+2022-11-01 16:55:44.308 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "TimeTransactions" (
+    "TransactionID" TEXT NOT NULL CONSTRAINT "PK_TimeTransactions" PRIMARY KEY,
+    "StartTime" TEXT NULL,
+    "EndTime" TEXT NULL,
+    "EmployeeID" TEXT NOT NULL,
+    CONSTRAINT "FK_TimeTransactions_Employees_EmployeeID" FOREIGN KEY ("EmployeeID") REFERENCES "Employees" ("EmployeeID") ON DELETE CASCADE
+);
+2022-11-01 16:55:44.308 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-01 16:55:44.308 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-01 16:55:44.308 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_TimeTransactions_EmployeeID" ON "TimeTransactions" ("EmployeeID");
+2022-11-01 16:55:44.308 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_TimeTransactions_EmployeeID" ON "TimeTransactions" ("EmployeeID");
+2022-11-01 16:55:44.308 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-01 16:55:44.308 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-01 16:55:44.308 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221101225219_EmployeeClockDBInitialMigration', '6.0.10');
+2022-11-01 16:55:44.308 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221101225219_EmployeeClockDBInitialMigration', '6.0.10');
+2022-11-01 16:55:44.309 -06:00 [DBG] Committing transaction.
+2022-11-01 16:55:44.314 -06:00 [DBG] Committed transaction.
+2022-11-01 16:55:44.315 -06:00 [DBG] Disposing transaction.
+2022-11-01 16:55:44.315 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-01 16:55:44.315 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-01 16:55:44.317 -06:00 [DBG] 'EmployeeClockContext' disposed.

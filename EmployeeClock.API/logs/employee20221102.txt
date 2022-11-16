@@ -1,0 +1,333 @@
+2022-11-02 16:09:34.894 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:13:44.459 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:14:47.580 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:18:46.053 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:18:46.677 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-02 16:18:46.723 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-02 16:19:15.002 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:19:30.093 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:19:30.667 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-02 16:19:30.793 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.793 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.794 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.794 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.794 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.794 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.794 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.794 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.814 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:19:30.817 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:19:30.817 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:19:30.825 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.865 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.872 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.877 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.877 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.877 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.877 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.877 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.877 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.877 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:19:30.878 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:19:30.878 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:19:30.884 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:19:30.884 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:19:30.983 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-02 16:19:43.808 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:19:44.413 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-02 16:19:44.568 -06:00 [DBG] Migrating using database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.572 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.584 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.596 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-02 16:19:44.601 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2022-11-02 16:19:44.602 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.607 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.612 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:19:44.631 -06:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:19:44.633 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.635 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.636 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.637 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.637 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-02 16:19:44.637 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-02 16:19:44.637 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.637 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.637 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:19:44.637 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:19:44.637 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.637 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.649 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-02 16:19:44.649 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-02 16:19:44.649 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.649 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.649 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-02 16:19:44.649 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-02 16:19:44.651 -06:00 [DBG] A data reader was disposed.
+2022-11-02 16:19:44.651 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.651 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.660 -06:00 [INF] Applying migration '20221102221930_dataSeed'.
+2022-11-02 16:19:44.696 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:44.696 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:44.697 -06:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-11-02 16:19:44.699 -06:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-11-02 16:19:44.700 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:44.701 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:44.701 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('20C031BD-6B6D-4880-8532-4524922D5A47', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'scott@gmail.com', 'Kira', '4031112997', 'Scott', 'Phoel', 'Edmonton');
+2022-11-02 16:19:44.702 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('20C031BD-6B6D-4880-8532-4524922D5A47', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'scott@gmail.com', 'Kira', '4031112997', 'Scott', 'Phoel', 'Edmonton');
+2022-11-02 16:19:44.702 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:44.702 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:44.702 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('2E773A8E-A50B-4C05-AA8C-4DFDB332D831', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'vika@gmail.com', 'Kira', '4031112997', 'Vika', 'Pigan', 'Brandon');
+2022-11-02 16:19:44.702 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('2E773A8E-A50B-4C05-AA8C-4DFDB332D831', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'vika@gmail.com', 'Kira', '4031112997', 'Vika', 'Pigan', 'Brandon');
+2022-11-02 16:19:44.702 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:44.702 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:44.702 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('B01273D5-4056-4100-B1E4-43B720583C71', '4033071111', '1993-08-24 00:00:00', '2019-04-06 00:00:00', NULL, 'lana@gmail.com', 'Kira', '4031112997', 'Roksolana', 'Bondziak', 'Stryi');
+2022-11-02 16:19:44.702 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('B01273D5-4056-4100-B1E4-43B720583C71', '4033071111', '1993-08-24 00:00:00', '2019-04-06 00:00:00', NULL, 'lana@gmail.com', 'Kira', '4031112997', 'Roksolana', 'Bondziak', 'Stryi');
+2022-11-02 16:19:44.702 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:44.702 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:44.702 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('B6FAD037-0750-4C38-B615-56E8951840DC', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'teddyw@gmail.com', 'Kira', '4031112997', 'Teddy', 'Karchenko', 'Red Deer');
+2022-11-02 16:19:45.979 -06:00 [INF] Executed DbCommand (1,277ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('B6FAD037-0750-4C38-B615-56E8951840DC', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'teddyw@gmail.com', 'Kira', '4031112997', 'Teddy', 'Karchenko', 'Red Deer');
+2022-11-02 16:19:45.979 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:45.979 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:45.979 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('D28888E9-2BA9-473A-A40F-E38CB23F9B23', '4033071277', '1980-03-23 00:00:00', '2021-01-01 00:00:00', NULL, 'vladislav@gmail.com', 'Vika', '4033012997', 'Vladislav', 'Bordick', 'Shevcheko Str');
+2022-11-02 16:19:45.979 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('D28888E9-2BA9-473A-A40F-E38CB23F9B23', '4033071277', '1980-03-23 00:00:00', '2021-01-01 00:00:00', NULL, 'vladislav@gmail.com', 'Vika', '4033012997', 'Vladislav', 'Bordick', 'Shevcheko Str');
+2022-11-02 16:19:45.979 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:45.979 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:45.979 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('D28888E9-2BA9-473A-A40F-E38CB54F9B35', '4033077577', '1993-07-23 00:00:00', '2022-01-24 00:00:00', NULL, 'test@gmail.com', 'Bob', '4033077997', 'Berry', 'Griffin Beak Eldritch', 'Legacy Gate SE');
+2022-11-02 16:19:45.979 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('D28888E9-2BA9-473A-A40F-E38CB54F9B35', '4033077577', '1993-07-23 00:00:00', '2022-01-24 00:00:00', NULL, 'test@gmail.com', 'Bob', '4033077997', 'Berry', 'Griffin Beak Eldritch', 'Legacy Gate SE');
+2022-11-02 16:19:45.979 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:45.980 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:45.980 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('D28888E9-2CD1-473A-A23F-E38CB23F9B23', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'andrew@gmail.com', 'Kira', '4031112997', 'Anrew', 'Borisuk', 'Bow River');
+2022-11-02 16:19:45.980 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('D28888E9-2CD1-473A-A23F-E38CB23F9B23', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'andrew@gmail.com', 'Kira', '4031112997', 'Anrew', 'Borisuk', 'Bow River');
+2022-11-02 16:19:45.980 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:45.980 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:45.980 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('F80A777C-5F7B-4DA3-954E-814A7EA171E5', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'lana@gmail.com', 'Kira', '4031112997', 'Lana', 'Radevych', 'Stryi');
+2022-11-02 16:19:47.346 -06:00 [INF] Executed DbCommand (1,366ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeID", "Address", "DateOfBirth", "DateOfHire", "DateOfQuit", "Email", "EmergencyContactName", "EmergencyContactPhone", "FirstName", "LastName", "Phone")
+VALUES ('F80A777C-5F7B-4DA3-954E-814A7EA171E5', '4033071111', '1990-03-23 00:00:00', '2019-04-06 00:00:00', NULL, 'lana@gmail.com', 'Kira', '4031112997', 'Lana', 'Radevych', 'Stryi');
+2022-11-02 16:19:47.346 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:19:47.346 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:19:47.347 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221102221930_dataSeed', '6.0.10');
+2022-11-02 16:19:47.347 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221102221930_dataSeed', '6.0.10');
+2022-11-02 16:19:47.348 -06:00 [DBG] Committing transaction.
+2022-11-02 16:19:47.364 -06:00 [DBG] Committed transaction.
+2022-11-02 16:19:47.365 -06:00 [DBG] Disposing transaction.
+2022-11-02 16:19:47.365 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:19:47.365 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:19:47.366 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-02 16:20:14.077 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:26:39.975 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:28:46.993 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:28:47.667 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-02 16:28:47.820 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.820 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.820 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.821 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.821 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.821 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.821 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.821 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.837 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.838 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.838 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.838 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.873 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.890 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.901 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.901 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.901 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.901 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.901 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.901 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.901 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.911 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:28:47.918 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:28:47.919 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:28:47.920 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:28:47.960 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.960 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.960 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.960 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:47.960 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.183 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.183 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.183 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.183 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.184 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.185 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.185 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.185 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.185 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.185 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:48.185 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:49.082 -06:00 [DBG] An entity of type 'Employee' tracked by 'EmployeeClockContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:49.082 -06:00 [DBG] An entity of type 'TimeTransaction' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:49.084 -06:00 [DBG] An entity of type 'TimeTransaction' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:49.084 -06:00 [DBG] An entity of type 'TimeTransaction' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:49.085 -06:00 [DBG] An entity of type 'TimeTransaction' tracked by 'EmployeeClockContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 16:28:49.085 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:28:49.085 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:28:49.090 -06:00 [DBG] DetectChanges starting for 'EmployeeClockContext'.
+2022-11-02 16:28:49.090 -06:00 [DBG] DetectChanges completed for 'EmployeeClockContext'.
+2022-11-02 16:28:49.189 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-02 16:28:58.723 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 16:28:59.361 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-02 16:28:59.502 -06:00 [DBG] Migrating using database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.507 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.518 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.530 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-02 16:28:59.536 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2022-11-02 16:28:59.537 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.542 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.548 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:28:59.568 -06:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:28:59.570 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.572 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.574 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.575 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.576 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-02 16:28:59.576 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-02 16:28:59.576 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.576 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.576 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:28:59.577 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-02 16:28:59.577 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.577 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.586 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-02 16:28:59.586 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-02 16:28:59.586 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.586 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.586 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-02 16:28:59.587 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-02 16:28:59.590 -06:00 [DBG] A data reader was disposed.
+2022-11-02 16:28:59.590 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.590 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.601 -06:00 [INF] Applying migration '20221102222849_dataSeedTransaction'.
+2022-11-02 16:28:59.642 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.642 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.643 -06:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-11-02 16:28:59.645 -06:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-11-02 16:28:59.646 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:28:59.646 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:28:59.646 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('2B781937-3E38-4754-AAB9-D7C8C526BF2D', 'B01273D5-4056-4100-B1E4-43B720583C71', '2022-04-10 15:30:52', '2022-04-10 08:29:52');
+2022-11-02 16:28:59.648 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('2B781937-3E38-4754-AAB9-D7C8C526BF2D', 'B01273D5-4056-4100-B1E4-43B720583C71', '2022-04-10 15:30:52', '2022-04-10 08:29:52');
+2022-11-02 16:28:59.648 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:28:59.701 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (52ms).
+2022-11-02 16:28:59.701 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('A2DFD946-74B9-4397-8004-215F434FA9A5', '2E773A8E-A50B-4C05-AA8C-4DFDB332D831', '2022-04-11 16:30:00', '2022-04-11 07:15:02');
+2022-11-02 16:28:59.701 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('A2DFD946-74B9-4397-8004-215F434FA9A5', '2E773A8E-A50B-4C05-AA8C-4DFDB332D831', '2022-04-11 16:30:00', '2022-04-11 07:15:02');
+2022-11-02 16:28:59.701 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:28:59.701 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:28:59.701 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('CC632EF1-9BDB-46F8-B278-C0A00BEA9580', 'B01273D5-4056-4100-B1E4-43B720583C71', '2022-04-11 16:32:24', '2022-04-11 07:30:02');
+2022-11-02 16:28:59.701 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('CC632EF1-9BDB-46F8-B278-C0A00BEA9580', 'B01273D5-4056-4100-B1E4-43B720583C71', '2022-04-11 16:32:24', '2022-04-11 07:30:02');
+2022-11-02 16:28:59.701 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:28:59.701 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:28:59.701 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('D259E39E-BEF1-44F3-A040-A1B373FB748A', '2E773A8E-A50B-4C05-AA8C-4DFDB332D831', '2022-04-10 16:30:52', '2022-04-10 07:30:42');
+2022-11-02 16:28:59.701 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TimeTransactions" ("TransactionID", "EmployeeID", "EndTime", "StartTime")
+VALUES ('D259E39E-BEF1-44F3-A040-A1B373FB748A', '2E773A8E-A50B-4C05-AA8C-4DFDB332D831', '2022-04-10 16:30:52', '2022-04-10 07:30:42');
+2022-11-02 16:28:59.701 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-02 16:28:59.701 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-02 16:28:59.701 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221102222849_dataSeedTransaction', '6.0.10');
+2022-11-02 16:28:59.701 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221102222849_dataSeedTransaction', '6.0.10');
+2022-11-02 16:28:59.702 -06:00 [DBG] Committing transaction.
+2022-11-02 16:28:59.719 -06:00 [DBG] Committed transaction.
+2022-11-02 16:28:59.720 -06:00 [DBG] Disposing transaction.
+2022-11-02 16:28:59.720 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-02 16:28:59.720 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-02 16:28:59.721 -06:00 [DBG] 'EmployeeClockContext' disposed.
