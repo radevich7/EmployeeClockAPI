@@ -101,7 +101,7 @@ namespace EmployeeClock.API.Controllers
             return CreatedAtRoute("GetEmployee", new { employeeID = newEmployee.EmployeeID, includeTimeTransaction = false }, newEmployee);
         }
 
-        [HttpPut]
+        [HttpPut(Name =("UpdateEmployee"))]
 
         public async Task<ActionResult> UpdateEmployee(EmployeeForUpdateDTO employeeForUpdate)
         {

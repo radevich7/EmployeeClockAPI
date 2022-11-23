@@ -3,7 +3,6 @@ using EmployeeClock.DTO.TimeTransactions;
 using EmployeeClock.Repository.Helpers;
 using EmployeeClock.Repository.ResourseParameters;
 using EmployeeClock.Repository.TimeTransactionRepository;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.JsonPatch;
 using System.Text.Json;
@@ -113,16 +112,15 @@ namespace EmployeeClock.API.Controllers
 
 
         }
-        [HttpPut("{transactionID}", Name = ("UpdateTimeTransaction"))]
+        [HttpPut(Name = ("UpdateTimeTransaction"))]
 
-        public async Task<ActionResult> UpdateTimeTransaction(Guid transactionID, TimeTransactionForUpdateDTO transactionToUpdate)
+        public async Task<ActionResult> UpdateTimeTransaction(TimeTransactionForUpdateDTO transactionToUpdate)
         {
-            if (!_transactionRepository.TransactionExists(transactionID))
+            if (!_transactionRepository.TransactionExists(transactionToUpdate.TransactionID))
             {
                 NotFound();
             }
-            var resouceParameter = new TimeTransactionResourceParameters();
-            var transactionEntity = await _transactionRepository.GetTimeTransactionAsync(transactionID);
+            var transactionEntity = await _transactionRepository.GetTimeTransactionAsync(transactionToUpdate.TransactionID);
 
             _mapper.Map(transactionToUpdate, transactionEntity);
             await _transactionRepository.SaveChangesAsync();
@@ -130,7 +128,7 @@ namespace EmployeeClock.API.Controllers
             return NoContent();
         }
 
-        [HttpPatch("{transactionID}", Name =("PartialUpdateTransaction"))]
+        [HttpPatch("{transactionID}", Name = ("PartialUpdateTransaction"))]
 
         public async Task<ActionResult> PartialUpdateOfTransaction(Guid transactionID, JsonPatchDocument<TimeTransactionForUpdateDTO> patchDocument)
         {
