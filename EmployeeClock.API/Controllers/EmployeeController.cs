@@ -12,8 +12,8 @@ using System.Text.Json;
 
 namespace EmployeeClock.API.Controllers
 {
-    [ApiController]
     [Route("api/employees")]
+    [ApiController]
     //[Authorize]
 
     public class EmployeeController : ControllerBase

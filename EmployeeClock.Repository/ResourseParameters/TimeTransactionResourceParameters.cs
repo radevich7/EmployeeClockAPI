@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using EmployeeClock.Repository.ResourseParameters;
 
-
-namespace EmployeeClock.API.ResourseParameters
+namespace EmployeeClock.Repository.ResourseParameters
 {
-    public class EmployeeResourceParameters : ResourceParameters
+    public class TimeTransactionResourceParameters : ResourceParameters
     {
-        public string OrderBy { get; set; } = "Name";
+        public string OrderBy { get; set; } = "Date";
+
     }
 }

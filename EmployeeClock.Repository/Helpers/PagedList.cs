@@ -14,6 +14,9 @@ namespace EmployeeClock.Repository.Helpers
         public int TotalCount { get; set; }
         public bool HasPrevious => (CurrentPage > 1);
         public bool HasNext => (CurrentPage < TotalPages);
+        public bool HasPreviousWithEmployeeID => (CurrentPage > 1);
+        public bool HasNextWithEmployeeID => (CurrentPage < TotalPages);
+  
 
         public PagedList(List<T> items, int count, int pageNumber, int pageSize)
         {
@@ -28,10 +31,19 @@ namespace EmployeeClock.Repository.Helpers
             var count = source.Count();
             var items = source.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
             var pagedListToReturn = new PagedList<T>(items, count, pageNumber, pageSize);
-            return  pagedListToReturn;
+            return pagedListToReturn;
 
         }
+        public static async Task<PagedList<T>> CreateAsync(IEnumerable<T> source, int pageNumber, int pageSize)
+        {
+            var count = source.Count();
+            var items = source.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
+            var pagedListToReturn = new PagedList<T>(items, count, pageNumber, pageSize);
+            return pagedListToReturn;
 
 
+
+
+        }
     }
 }

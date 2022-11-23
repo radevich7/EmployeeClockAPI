@@ -2,6 +2,7 @@ using EmployeeClock.Repository.DBContext;
 using EmployeeClock.Repository.EmployeeRepository;
 using EmployeeClock.Repository.Helpers;
 using EmployeeClock.Repository.Services;
+using EmployeeClock.Repository.TimeTransactionRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
@@ -30,6 +31,8 @@ builder.Services.AddDbContext<EmployeeClockContext>(
     dbContextOptions => dbContextOptions.UseSqlite(builder.Configuration["ConnectionStrings:EmployeeClockDBConnectionString"])
     );
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+
 builder.Services.AddTransient<IPropertyMappingService, PropertyMappingService>();
 // register PropertyCheckerService
 builder.Services.AddTransient<IPropertyCheckerService, PropertyCheckerService>();

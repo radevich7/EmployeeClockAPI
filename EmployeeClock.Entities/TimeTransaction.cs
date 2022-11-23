@@ -16,11 +16,11 @@ namespace EmployeeClock.Entities
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid TransactionID { get; set; }
+
         public DateTime? StartTime { get; set; }
         public DateTime? EndTime { get; set; }
-        public Employee? Employee { get; set; }
         [ForeignKey("EmployeeID")]
-
+        public Employee? Employee { get; set; }
         public Guid EmployeeID { get; set; }
 
     }

@@ -50,7 +50,7 @@ namespace EmployeeClock.Repository.EmployeeRepository
                 collection = collection.ApplySort(resourceParameters.OrderBy, employeePropertyMappingDictionary);
             }
 
-            return await PagedList<Employee>.CreateAsync(collection, resourceParameters.PageNumber, resourceParameters.PageSize); ;
+            return await PagedList<Employee>.CreateAsync(collection, resourceParameters.PageNumber, resourceParameters.PageSize); 
 
         }
 

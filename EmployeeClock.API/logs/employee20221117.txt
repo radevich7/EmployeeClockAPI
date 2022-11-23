@@ -1,0 +1,1297 @@
+2022-11-17 16:25:18.677 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:25:18.818 -07:00 [DBG] Hosting starting
+2022-11-17 16:25:18.944 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:25:18.950 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:25:18.967 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:25:18.980 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:25:18.989 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:25:18.998 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:25:19.001 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:25:19.005 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:25:19.007 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:25:19.012 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:25:19.015 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:25:19.019 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:25:19.021 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:25:19.506 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:25:19.576 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:25:19.577 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:25:19.578 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:25:19.578 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:25:19.579 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:25:19.579 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:25:19.580 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:25:19.580 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:25:19.581 -07:00 [DBG] Hosting started
+2022-11-17 16:26:22.181 -07:00 [DBG] Connection id "0HMM8UCHLCHTH" received FIN.
+2022-11-17 16:26:22.236 -07:00 [DBG] Connection id "0HMM8UCHLCHTH" accepted.
+2022-11-17 16:26:22.242 -07:00 [DBG] Connection id "0HMM8UCHLCHTH" started.
+2022-11-17 16:26:22.244 -07:00 [DBG] Connection id "0HMM8UCHLCHTI" accepted.
+2022-11-17 16:26:22.245 -07:00 [DBG] Connection id "0HMM8UCHLCHTI" started.
+2022-11-17 16:26:22.271 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:26:22.383 -07:00 [DBG] Connection 0HMM8UCHLCHTI established using the following protocol: "Tls13"
+2022-11-17 16:26:22.417 -07:00 [DBG] Connection id "0HMM8UCHLCHTH" stopped.
+2022-11-17 16:26:22.421 -07:00 [DBG] Connection id "0HMM8UCHLCHTH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:26:22.453 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees - -
+2022-11-17 16:26:22.471 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:26:22.522 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:26:22.553 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2022-11-17 16:26:22.557 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2022-11-17 16:26:22.569 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2022-11-17 16:26:22.754 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:26:22.757 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2022-11-17 16:26:22.791 -07:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees(EmployeeClock.API.ResourseParameters.EmployeeResourceParameters) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2022-11-17 16:26:22.795 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:26:22.795 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:26:22.798 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:26:22.799 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:26:22.799 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:26:22.800 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2022-11-17 16:26:23.026 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:26:23.244 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2022-11-17 16:26:23.249 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2022-11-17 16:26:23.251 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' using the name '' in request data ...
+2022-11-17 16:26:23.258 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String' using the name 'SearchQuery' in request data ...
+2022-11-17 16:26:23.259 -07:00 [DBG] Could not find a value in the request with name 'SearchQuery' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2022-11-17 16:26:23.261 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2022-11-17 16:26:23.265 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32' using the name 'PageNumber' in request data ...
+2022-11-17 16:26:23.267 -07:00 [DBG] Could not find a value in the request with name 'PageNumber' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2022-11-17 16:26:23.267 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2022-11-17 16:26:23.270 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2022-11-17 16:26:23.271 -07:00 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2022-11-17 16:26:23.272 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2022-11-17 16:26:23.273 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String' using the name 'OrderBy' in request data ...
+2022-11-17 16:26:23.273 -07:00 [DBG] Could not find a value in the request with name 'OrderBy' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2022-11-17 16:26:23.274 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2022-11-17 16:26:23.275 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String' using the name 'Fields' in request data ...
+2022-11-17 16:26:23.276 -07:00 [DBG] Could not find a value in the request with name 'Fields' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2022-11-17 16:26:23.276 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2022-11-17 16:26:23.277 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2022-11-17 16:26:23.279 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2022-11-17 16:26:23.280 -07:00 [DBG] Attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2022-11-17 16:26:23.287 -07:00 [DBG] Done attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2022-11-17 16:26:24.274 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:26:24.883 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Count()'
+2022-11-17 16:26:25.170 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Employees AS e), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2022-11-17 16:26:25.217 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:26:25.300 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (78ms).
+2022-11-17 16:26:25.307 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:26:25.329 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:26:25.346 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2022-11-17 16:26:25.374 -07:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2022-11-17 16:26:25.384 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:26:25.389 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:26:25.395 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:26:25.406 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2022-11-17 16:26:25.446 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.EmployeeID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Address (string) Required, 1], [Property: Employee.DateOfBirth (DateTime) Required, 2], [Property: Employee.DateOfHire (DateTime) Required, 3], [Property: Employee.DateOfQuit (DateTime?), 4], [Property: Employee.Email (string) Required, 5], [Property: Employee.EmergencyContactName (string), 6], [Property: Employee.EmergencyContactPhone (string), 7], [Property: Employee.FirstName (string) Required MaxLength(50), 8], [Property: Employee.LastName (string) Required MaxLength(50), 9], [Property: Employee.Phone (string) Required, 10] }
+        SELECT e.EmployeeID, e.Address, e.DateOfBirth, e.DateOfHire, e.DateOfQuit, e.Email, e.EmergencyContactName, e.EmergencyContactPhone, e.FirstName, e.LastName, e.Phone
+        FROM Employees AS e
+        ORDER BY e.FirstName ASC, e.LastName ASC
+        OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:26:25.455 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:26:25.456 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-11-17 16:26:25.459 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:26:25.459 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:26:25.465 -07:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2022-11-17 16:26:25.470 -07:00 [INF] Executed DbCommand (10ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2022-11-17 16:26:25.492 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.553 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.579 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.581 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.582 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.582 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.583 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.584 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.586 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:26:25.596 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:26:25.597 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:26:25.597 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:26:25.646 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-11-17 16:26:25.650 -07:00 [DBG] No information found on request to perform content negotiation.
+2022-11-17 16:26:25.650 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 16:26:25.651 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 16:26:25.651 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 16:26:25.653 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+2022-11-17 16:26:25.778 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) in 2972.6887ms
+2022-11-17 16:26:25.781 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2022-11-17 16:26:25.782 -07:00 [DBG] Connection id "0HMM8UCHLCHTI" completed keep alive response.
+2022-11-17 16:26:25.789 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:26:25.793 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees - - - 200 2648 application/json;+charset=utf-8 3345.0722ms
+2022-11-17 16:29:53.479 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:29:53.629 -07:00 [DBG] Hosting starting
+2022-11-17 16:29:53.692 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:29:53.697 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:29:53.701 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:29:53.706 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:29:53.711 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:29:53.718 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:29:53.721 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:29:53.724 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:29:53.726 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:29:53.730 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:29:53.734 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:29:53.738 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:29:53.741 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:29:53.904 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:29:53.958 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:29:53.959 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:29:53.960 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:29:53.960 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:29:53.961 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:29:53.962 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:29:53.962 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:29:53.963 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:29:53.963 -07:00 [DBG] Hosting started
+2022-11-17 16:30:11.390 -07:00 [DBG] Connection id "0HMM8UELV9EKD" received FIN.
+2022-11-17 16:30:11.403 -07:00 [DBG] Connection id "0HMM8UELV9EKD" accepted.
+2022-11-17 16:30:11.413 -07:00 [DBG] Connection id "0HMM8UELV9EKD" started.
+2022-11-17 16:30:11.415 -07:00 [DBG] Connection id "0HMM8UELV9EKE" accepted.
+2022-11-17 16:30:11.417 -07:00 [DBG] Connection id "0HMM8UELV9EKE" started.
+2022-11-17 16:30:11.435 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:30:11.498 -07:00 [DBG] Connection id "0HMM8UELV9EKD" stopped.
+2022-11-17 16:30:11.500 -07:00 [DBG] Connection id "0HMM8UELV9EKD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:30:11.508 -07:00 [DBG] Connection 0HMM8UELV9EKE established using the following protocol: "Tls13"
+2022-11-17 16:30:11.742 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees - -
+2022-11-17 16:30:11.766 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:30:11.828 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:30:11.875 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2022-11-17 16:30:11.880 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2022-11-17 16:30:11.902 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2022-11-17 16:30:12.333 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:30:12.339 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2022-11-17 16:30:12.394 -07:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees(EmployeeClock.API.ResourseParameters.EmployeeResourceParameters) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2022-11-17 16:30:12.398 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:30:12.399 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:30:12.401 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:30:12.403 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:30:12.404 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:30:12.406 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2022-11-17 16:30:12.629 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:30:12.870 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2022-11-17 16:30:12.876 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2022-11-17 16:30:12.879 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' using the name '' in request data ...
+2022-11-17 16:30:12.882 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String' using the name 'SearchQuery' in request data ...
+2022-11-17 16:30:12.883 -07:00 [DBG] Could not find a value in the request with name 'SearchQuery' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2022-11-17 16:30:12.884 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2022-11-17 16:30:12.888 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32' using the name 'PageNumber' in request data ...
+2022-11-17 16:30:12.889 -07:00 [DBG] Could not find a value in the request with name 'PageNumber' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2022-11-17 16:30:12.890 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2022-11-17 16:30:12.894 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2022-11-17 16:30:12.895 -07:00 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2022-11-17 16:30:12.896 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2022-11-17 16:30:12.898 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String' using the name 'OrderBy' in request data ...
+2022-11-17 16:30:12.899 -07:00 [DBG] Could not find a value in the request with name 'OrderBy' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2022-11-17 16:30:12.901 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2022-11-17 16:30:12.903 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String' using the name 'Fields' in request data ...
+2022-11-17 16:30:12.905 -07:00 [DBG] Could not find a value in the request with name 'Fields' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2022-11-17 16:30:12.906 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2022-11-17 16:30:12.913 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2022-11-17 16:30:12.915 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2022-11-17 16:30:12.916 -07:00 [DBG] Attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2022-11-17 16:30:12.926 -07:00 [DBG] Done attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2022-11-17 16:30:13.960 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:30:14.338 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Count()'
+2022-11-17 16:30:14.637 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Employees AS e), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2022-11-17 16:30:14.678 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:30:14.720 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (37ms).
+2022-11-17 16:30:14.730 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:30:14.748 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:30:14.762 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2022-11-17 16:30:14.784 -07:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2022-11-17 16:30:14.796 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:30:14.801 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:30:14.809 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:30:14.818 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2022-11-17 16:30:14.867 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.EmployeeID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Address (string) Required, 1], [Property: Employee.DateOfBirth (DateTime) Required, 2], [Property: Employee.DateOfHire (DateTime) Required, 3], [Property: Employee.DateOfQuit (DateTime?), 4], [Property: Employee.Email (string) Required, 5], [Property: Employee.EmergencyContactName (string), 6], [Property: Employee.EmergencyContactPhone (string), 7], [Property: Employee.FirstName (string) Required MaxLength(50), 8], [Property: Employee.LastName (string) Required MaxLength(50), 9], [Property: Employee.Phone (string) Required, 10] }
+        SELECT e.EmployeeID, e.Address, e.DateOfBirth, e.DateOfHire, e.DateOfQuit, e.Email, e.EmergencyContactName, e.EmergencyContactPhone, e.FirstName, e.LastName, e.Phone
+        FROM Employees AS e
+        ORDER BY e.FirstName ASC, e.LastName ASC
+        OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:30:14.882 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:30:14.882 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-17 16:30:14.887 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:30:14.891 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:30:14.896 -07:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2022-11-17 16:30:14.904 -07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2022-11-17 16:30:14.926 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.975 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.977 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.979 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.980 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.982 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.983 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.984 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.986 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:30:14.987 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:30:14.988 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:30:14.989 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:30:15.027 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-11-17 16:30:15.033 -07:00 [DBG] No information found on request to perform content negotiation.
+2022-11-17 16:30:15.035 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 16:30:15.036 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 16:30:15.039 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 16:30:15.043 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+2022-11-17 16:30:15.262 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) in 2846.653ms
+2022-11-17 16:30:15.265 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2022-11-17 16:30:15.266 -07:00 [DBG] Connection id "0HMM8UELV9EKE" completed keep alive response.
+2022-11-17 16:30:15.280 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:30:15.309 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees - - - 200 2648 application/json;+charset=utf-8 3577.2198ms
+2022-11-17 16:31:38.663 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transacions - -
+2022-11-17 16:31:38.665 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:31:38.666 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transacions'
+2022-11-17 16:31:38.666 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transacions' is valid for the request path '/api/transacions'
+2022-11-17 16:31:38.667 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:31:38.668 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:31:38.709 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:31:38.715 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:31:38.721 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:31:38.722 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:31:38.723 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:31:38.724 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:31:38.725 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:31:38.726 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:31:38.727 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:31:42.309 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:31:42.313 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()'
+2022-11-17 16:31:42.319 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:31:42.339 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:31:42.340 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-11-17 16:31:42.354 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:31:42.357 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:31:42.362 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:31:42.368 -07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:31:42.375 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:31:42.385 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:31:42.387 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:31:42.391 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:31:42.396 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:31:42.407 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:31:42.410 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:31:42.457 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 3730.5587ms
+2022-11-17 16:31:42.461 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:31:42.463 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Task`1 -> IEnumerable`1
+System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[EmployeeClock.Entities.TimeTransaction, EmployeeClock.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> System.Collections.Generic.IEnumerable`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method137(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions() in C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\Controllers\TimeTransactionController.cs:line 30
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-17 16:31:42.490 -07:00 [DBG] Connection id "0HMM8UELV9EKE" completed keep alive response.
+2022-11-17 16:31:42.491 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:31:42.492 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transacions - - - 500 - text/plain;+charset=utf-8 3829.2267ms
+2022-11-17 16:33:27.192 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:33:27.420 -07:00 [DBG] Hosting starting
+2022-11-17 16:33:27.492 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:33:27.497 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:33:27.507 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:33:27.514 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:33:27.522 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:33:27.532 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:33:27.535 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:33:27.540 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:33:27.542 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:33:27.547 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:33:27.551 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:33:27.556 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:33:27.557 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:33:27.817 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:33:27.878 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:33:27.879 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:33:27.881 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:33:27.882 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:33:27.883 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:33:27.884 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:33:27.885 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:33:27.888 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:33:27.889 -07:00 [DBG] Hosting started
+2022-11-17 16:33:34.790 -07:00 [DBG] Connection id "0HMM8UGIJ2BQO" received FIN.
+2022-11-17 16:33:34.801 -07:00 [DBG] Connection id "0HMM8UGIJ2BQO" accepted.
+2022-11-17 16:33:34.804 -07:00 [DBG] Connection id "0HMM8UGIJ2BQO" started.
+2022-11-17 16:33:34.806 -07:00 [DBG] Connection id "0HMM8UGIJ2BQP" accepted.
+2022-11-17 16:33:34.807 -07:00 [DBG] Connection id "0HMM8UGIJ2BQP" started.
+2022-11-17 16:33:34.821 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:33:34.878 -07:00 [DBG] Connection id "0HMM8UGIJ2BQO" stopped.
+2022-11-17 16:33:34.879 -07:00 [DBG] Connection id "0HMM8UGIJ2BQO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:33:34.886 -07:00 [DBG] Connection 0HMM8UGIJ2BQP established using the following protocol: "Tls13"
+2022-11-17 16:33:34.933 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions - -
+2022-11-17 16:33:34.955 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:33:35.022 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:33:35.061 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions'
+2022-11-17 16:33:35.065 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions' is valid for the request path '/api/transactions'
+2022-11-17 16:33:35.079 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:33:35.181 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:33:35.183 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:33:35.209 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:33:35.213 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:33:35.214 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:33:35.216 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:33:35.218 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:33:35.219 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:33:35.220 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:33:35.453 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:33:35.720 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:33:41.212 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:33:41.260 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()'
+2022-11-17 16:33:41.493 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:33:41.551 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:33:41.648 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (95ms).
+2022-11-17 16:33:41.663 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:33:41.690 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:33:41.706 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:33:41.732 -07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:33:41.763 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:33:41.798 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:33:41.800 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:33:41.801 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:33:41.812 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:33:41.821 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:33:41.833 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:33:41.907 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 6679.7844ms
+2022-11-17 16:33:41.911 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:33:41.914 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Task`1 -> IEnumerable`1
+System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[EmployeeClock.Entities.TimeTransaction, EmployeeClock.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> System.Collections.Generic.IEnumerable`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method57(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions() in C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\Controllers\TimeTransactionController.cs:line 30
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-17 16:33:41.955 -07:00 [DBG] Connection id "0HMM8UGIJ2BQP" completed keep alive response.
+2022-11-17 16:33:41.964 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:33:41.972 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions - - - 500 - text/plain;+charset=utf-8 7043.3107ms
+2022-11-17 16:35:14.282 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:35:14.427 -07:00 [DBG] Hosting starting
+2022-11-17 16:35:14.497 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:35:14.501 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:35:14.507 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:35:14.514 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:35:14.518 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:35:14.525 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:35:14.526 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:35:14.531 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:35:14.533 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:35:14.537 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:35:14.540 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:35:14.543 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:35:14.544 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:35:14.728 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:35:14.799 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:35:14.800 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:35:14.802 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:35:14.804 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:35:14.806 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:35:14.807 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:35:14.809 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:35:14.811 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:35:14.812 -07:00 [DBG] Hosting started
+2022-11-17 16:35:21.160 -07:00 [DBG] Connection id "0HMM8UHI9FTDL" received FIN.
+2022-11-17 16:35:21.174 -07:00 [DBG] Connection id "0HMM8UHI9FTDL" accepted.
+2022-11-17 16:35:21.176 -07:00 [DBG] Connection id "0HMM8UHI9FTDL" started.
+2022-11-17 16:35:21.178 -07:00 [DBG] Connection id "0HMM8UHI9FTDM" accepted.
+2022-11-17 16:35:21.179 -07:00 [DBG] Connection id "0HMM8UHI9FTDM" started.
+2022-11-17 16:35:21.195 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:35:21.263 -07:00 [DBG] Connection id "0HMM8UHI9FTDL" stopped.
+2022-11-17 16:35:21.265 -07:00 [DBG] Connection id "0HMM8UHI9FTDL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:35:21.273 -07:00 [DBG] Connection 0HMM8UHI9FTDM established using the following protocol: "Tls13"
+2022-11-17 16:35:21.330 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions - -
+2022-11-17 16:35:21.345 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:35:21.397 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:35:21.442 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions'
+2022-11-17 16:35:21.448 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions' is valid for the request path '/api/transactions'
+2022-11-17 16:35:21.470 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:35:21.603 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:35:21.609 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:35:21.650 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:35:21.654 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:35:21.655 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:35:21.656 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:35:21.657 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:35:21.658 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:35:21.659 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:35:21.844 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:35:22.094 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:35:35.242 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:35:35.281 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()'
+2022-11-17 16:35:35.480 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:35:35.545 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:35:35.653 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (103ms).
+2022-11-17 16:35:35.664 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:35:35.687 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:35:35.704 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:35:35.738 -07:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:35:35.781 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:35:35.826 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:35:35.828 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:35:35.829 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:35:35.842 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:35:35.875 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:35:35.892 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:35:51.007 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 29343.8717ms
+2022-11-17 16:35:51.012 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:35:51.018 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[EmployeeClock.Entities.TimeTransaction, EmployeeClock.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TimeTransaction -> TimeTransactionDTO
+EmployeeClock.Entities.TimeTransaction -> EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO
+   at lambda_method58(Closure , TimeTransaction , TimeTransactionDTO , ResolutionContext )
+   at lambda_method57(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method57(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions() in C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\Controllers\TimeTransactionController.cs:line 30
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-17 16:35:51.057 -07:00 [DBG] Connection id "0HMM8UHI9FTDM" completed keep alive response.
+2022-11-17 16:35:51.065 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:35:51.072 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions - - - 500 - text/plain;+charset=utf-8 29744.9985ms
+2022-11-17 16:36:24.242 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions - -
+2022-11-17 16:36:24.244 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:36:24.246 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions'
+2022-11-17 16:36:24.247 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions' is valid for the request path '/api/transactions'
+2022-11-17 16:36:24.249 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:36:24.250 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:36:24.251 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:36:24.254 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:36:24.256 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:36:24.257 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:36:24.258 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:36:24.260 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:36:24.263 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:36:24.265 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:36:24.267 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:36:28.932 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:36:28.939 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:36:28.940 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-17 16:36:28.940 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:36:28.941 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:36:28.942 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:36:28.943 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:36:28.944 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:36:28.944 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:36:28.945 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:36:28.946 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:36:28.948 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:36:28.949 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:36:28.950 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:36:43.625 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 19359.7483ms
+2022-11-17 16:36:43.628 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:36:43.631 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[EmployeeClock.Entities.TimeTransaction, EmployeeClock.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TimeTransaction -> TimeTransactionDTO
+EmployeeClock.Entities.TimeTransaction -> EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO
+   at lambda_method58(Closure , TimeTransaction , TimeTransactionDTO , ResolutionContext )
+   at lambda_method57(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method57(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions() in C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\Controllers\TimeTransactionController.cs:line 30
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-17 16:36:43.649 -07:00 [DBG] Connection id "0HMM8UHI9FTDM" completed keep alive response.
+2022-11-17 16:36:43.650 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:36:43.650 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions - - - 500 - text/plain;+charset=utf-8 19408.2161ms
+2022-11-17 16:38:22.922 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:38:23.037 -07:00 [DBG] Hosting starting
+2022-11-17 16:38:23.095 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:38:23.100 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:38:23.105 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:38:23.110 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:38:23.116 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:38:23.124 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:38:23.127 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:38:23.131 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:38:23.133 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:38:23.138 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:38:23.141 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:38:23.145 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:38:23.146 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:38:23.320 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:38:23.387 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:38:23.388 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:38:23.393 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:38:23.393 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:38:23.394 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:38:23.396 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:38:23.397 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:38:23.399 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:38:23.400 -07:00 [DBG] Hosting started
+2022-11-17 16:38:24.097 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2A" received FIN.
+2022-11-17 16:38:24.107 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2A" accepted.
+2022-11-17 16:38:24.109 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2A" started.
+2022-11-17 16:38:24.111 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2B" accepted.
+2022-11-17 16:38:24.112 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2B" started.
+2022-11-17 16:38:24.123 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:38:24.177 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2A" stopped.
+2022-11-17 16:38:24.179 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:38:24.198 -07:00 [DBG] Connection 0HMM8UJ8Q3U2B established using the following protocol: "Tls13"
+2022-11-17 16:38:24.235 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions - -
+2022-11-17 16:38:24.251 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:38:24.297 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:38:24.335 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions'
+2022-11-17 16:38:24.340 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions' is valid for the request path '/api/transactions'
+2022-11-17 16:38:24.354 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:38:24.456 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:38:24.459 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:38:24.478 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:38:24.483 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:38:24.484 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:38:24.485 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:38:24.488 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:38:24.489 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:38:24.491 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:38:24.690 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:38:24.982 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:38:32.610 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:38:32.657 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()'
+2022-11-17 16:38:32.909 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:38:32.987 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:38:33.081 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (93ms).
+2022-11-17 16:38:33.095 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:38:33.119 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:38:33.135 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:38:33.162 -07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:38:33.189 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:38:33.222 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:38:33.224 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:38:33.224 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:38:33.231 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:38:33.240 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:38:33.246 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:38:33.304 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 8805.4783ms
+2022-11-17 16:38:33.308 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:38:33.312 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[EmployeeClock.Entities.TimeTransaction, EmployeeClock.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TimeTransaction -> TimeTransactionDTO
+EmployeeClock.Entities.TimeTransaction -> EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO
+   at lambda_method58(Closure , TimeTransaction , TimeTransactionDTO , ResolutionContext )
+   at lambda_method57(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method57(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions() in C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\Controllers\TimeTransactionController.cs:line 30
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-17 16:38:33.358 -07:00 [DBG] Connection id "0HMM8UJ8Q3U2B" completed keep alive response.
+2022-11-17 16:38:33.366 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:38:33.372 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions - - - 500 - text/plain;+charset=utf-8 9140.3036ms
+2022-11-17 16:42:07.909 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:42:08.030 -07:00 [DBG] Hosting starting
+2022-11-17 16:42:08.098 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:42:08.103 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:42:08.108 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:42:08.113 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:42:08.117 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:42:08.126 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:42:08.129 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:42:08.132 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:42:08.134 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:42:08.140 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:42:08.144 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:42:08.148 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:42:08.149 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:42:08.342 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:42:08.396 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:42:08.397 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:42:08.398 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:42:08.399 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:42:08.403 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:42:08.404 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:42:08.405 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:42:08.406 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:42:08.407 -07:00 [DBG] Hosting started
+2022-11-17 16:42:19.885 -07:00 [DBG] Connection id "0HMM8ULF2OHTV" received FIN.
+2022-11-17 16:42:19.894 -07:00 [DBG] Connection id "0HMM8ULF2OHTV" accepted.
+2022-11-17 16:42:19.901 -07:00 [DBG] Connection id "0HMM8ULF2OHTV" started.
+2022-11-17 16:42:19.904 -07:00 [DBG] Connection id "0HMM8ULF2OHU0" accepted.
+2022-11-17 16:42:19.905 -07:00 [DBG] Connection id "0HMM8ULF2OHU0" started.
+2022-11-17 16:42:19.919 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:42:19.974 -07:00 [DBG] Connection id "0HMM8ULF2OHTV" stopped.
+2022-11-17 16:42:19.977 -07:00 [DBG] Connection id "0HMM8ULF2OHTV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:42:19.986 -07:00 [DBG] Connection 0HMM8ULF2OHU0 established using the following protocol: "Tls13"
+2022-11-17 16:42:20.031 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions - -
+2022-11-17 16:42:20.046 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:42:20.094 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:42:20.133 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions'
+2022-11-17 16:42:20.138 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions' is valid for the request path '/api/transactions'
+2022-11-17 16:42:20.154 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:42:20.273 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:42:20.277 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:42:20.305 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:42:20.308 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:42:20.309 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:42:20.310 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:42:20.312 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:42:20.312 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:42:20.314 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:42:20.498 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:42:20.764 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:42:26.363 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:42:26.408 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()'
+2022-11-17 16:42:26.701 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:42:26.773 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:42:26.942 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (159ms).
+2022-11-17 16:42:26.958 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:42:26.983 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:42:27.007 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:42:27.037 -07:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:42:27.062 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:42:27.096 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:42:27.100 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:42:27.101 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:42:27.112 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:42:27.120 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:42:27.128 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:42:56.851 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-11-17 16:42:56.857 -07:00 [DBG] No information found on request to perform content negotiation.
+2022-11-17 16:42:56.858 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 16:42:56.858 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 16:42:56.859 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 16:42:56.860 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-17 16:42:57.082 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 36764.2607ms
+2022-11-17 16:42:57.087 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:42:57.089 -07:00 [DBG] Connection id "0HMM8ULF2OHU0" completed keep alive response.
+2022-11-17 16:42:57.095 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:42:57.104 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions - - - 200 701 application/json;+charset=utf-8 37076.9328ms
+2022-11-17 16:43:25.129 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:43:25.275 -07:00 [DBG] Hosting starting
+2022-11-17 16:43:25.346 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:43:25.351 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:43:25.359 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:43:25.364 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:43:25.368 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:43:25.377 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:43:25.380 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:43:25.382 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:43:25.384 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:43:25.392 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:43:25.395 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:43:25.398 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:43:25.399 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:43:25.601 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:43:25.671 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:43:25.672 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:43:25.673 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:43:25.674 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:43:25.674 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:43:25.675 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:43:25.676 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:43:25.677 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:43:25.680 -07:00 [DBG] Hosting started
+2022-11-17 16:43:30.384 -07:00 [DBG] Connection id "0HMM8UM4338DK" received FIN.
+2022-11-17 16:43:30.396 -07:00 [DBG] Connection id "0HMM8UM4338DK" accepted.
+2022-11-17 16:43:30.400 -07:00 [DBG] Connection id "0HMM8UM4338DK" started.
+2022-11-17 16:43:30.403 -07:00 [DBG] Connection id "0HMM8UM4338DL" accepted.
+2022-11-17 16:43:30.404 -07:00 [DBG] Connection id "0HMM8UM4338DL" started.
+2022-11-17 16:43:30.416 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:43:30.476 -07:00 [DBG] Connection id "0HMM8UM4338DK" stopped.
+2022-11-17 16:43:30.478 -07:00 [DBG] Connection id "0HMM8UM4338DK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:43:30.481 -07:00 [DBG] Connection 0HMM8UM4338DL established using the following protocol: "Tls13"
+2022-11-17 16:43:30.526 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions - -
+2022-11-17 16:43:30.539 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:43:30.604 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:43:30.648 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions'
+2022-11-17 16:43:30.653 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions' is valid for the request path '/api/transactions'
+2022-11-17 16:43:30.666 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:43:30.774 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:43:30.778 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:43:30.797 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:43:30.800 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:43:30.801 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:43:30.803 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:43:30.805 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:43:30.805 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:43:30.807 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:43:30.990 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:43:31.259 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:43:34.582 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:43:34.650 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()'
+2022-11-17 16:43:34.947 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:43:35.027 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:43:35.118 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (89ms).
+2022-11-17 16:43:35.141 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:43:35.173 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:43:35.188 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:43:35.210 -07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:43:35.236 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:43:35.264 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:43:35.268 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:43:35.270 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:43:35.279 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:43:35.289 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:43:35.296 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:43:35.324 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-11-17 16:43:35.328 -07:00 [DBG] No information found on request to perform content negotiation.
+2022-11-17 16:43:35.329 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 16:43:35.329 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 16:43:35.330 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 16:43:35.331 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-17 16:43:35.507 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 4694.1085ms
+2022-11-17 16:43:35.511 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:43:35.513 -07:00 [DBG] Connection id "0HMM8UM4338DL" completed keep alive response.
+2022-11-17 16:43:35.517 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:43:35.524 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions - - - 200 701 application/json;+charset=utf-8 5002.8725ms
+2022-11-17 16:50:23.131 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-17 16:50:23.256 -07:00 [DBG] Hosting starting
+2022-11-17 16:50:23.315 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 16:50:23.321 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-73f5671b-bd54-4738-95f2-472544f58294.xml'.
+2022-11-17 16:50:23.327 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a.xml'.
+2022-11-17 16:50:23.333 -07:00 [DBG] Found key {73f5671b-bd54-4738-95f2-472544f58294}.
+2022-11-17 16:50:23.341 -07:00 [DBG] Found key {ed5067a5-6ac7-43d4-b4fb-fcab97fdec9a}.
+2022-11-17 16:50:23.348 -07:00 [DBG] Considering key {73f5671b-bd54-4738-95f2-472544f58294} with expiration date 2022-11-28 21:10:45Z as default key.
+2022-11-17 16:50:23.349 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:50:23.353 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-11-17 16:50:23.355 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.28.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 16:50:23.359 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-11-17 16:50:23.361 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-11-17 16:50:23.364 -07:00 [DBG] Using key {73f5671b-bd54-4738-95f2-472544f58294} as the default key.
+2022-11-17 16:50:23.366 -07:00 [DBG] Key ring with default key {73f5671b-bd54-4738-95f2-472544f58294} was loaded during application startup.
+2022-11-17 16:50:23.560 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D9DAFFE7BCE5D63486E10870BDA390B4078A656)
+2022-11-17 16:50:23.618 -07:00 [INF] Now listening on: https://localhost:7251
+2022-11-17 16:50:23.620 -07:00 [INF] Now listening on: http://localhost:5251
+2022-11-17 16:50:23.622 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2022-11-17 16:50:23.624 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 16:50:23.625 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 16:50:23.626 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-17 16:50:23.627 -07:00 [INF] Hosting environment: Development
+2022-11-17 16:50:23.628 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\
+2022-11-17 16:50:23.628 -07:00 [DBG] Hosting started
+2022-11-17 16:50:37.576 -07:00 [DBG] Connection id "0HMM8UQ3D3NN9" received FIN.
+2022-11-17 16:50:37.591 -07:00 [DBG] Connection id "0HMM8UQ3D3NN9" accepted.
+2022-11-17 16:50:37.598 -07:00 [DBG] Connection id "0HMM8UQ3D3NN9" started.
+2022-11-17 16:50:37.600 -07:00 [DBG] Connection id "0HMM8UQ3D3NNA" accepted.
+2022-11-17 16:50:37.601 -07:00 [DBG] Connection id "0HMM8UQ3D3NNA" started.
+2022-11-17 16:50:37.614 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:50:37.682 -07:00 [DBG] Connection id "0HMM8UQ3D3NN9" stopped.
+2022-11-17 16:50:37.686 -07:00 [DBG] Connection 0HMM8UQ3D3NNA established using the following protocol: "Tls13"
+2022-11-17 16:50:37.687 -07:00 [DBG] Connection id "0HMM8UQ3D3NN9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:50:37.744 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71 - -
+2022-11-17 16:50:37.765 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 16:50:37.827 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:50:37.876 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71'
+2022-11-17 16:50:37.882 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions/{employeeID}' is valid for the request path '/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71'
+2022-11-17 16:50:37.895 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:50:38.012 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:50:38.017 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:50:38.074 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions(System.Guid) on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:50:38.078 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:50:38.079 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:50:38.080 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:50:38.082 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:50:38.083 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:50:38.084 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:50:38.272 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 16:50:38.541 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:50:38.547 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2022-11-17 16:50:38.550 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2022-11-17 16:50:38.552 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2022-11-17 16:50:38.553 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2022-11-17 16:50:38.554 -07:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2022-11-17 16:50:38.556 -07:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2022-11-17 16:50:39.621 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:50:39.696 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()
+    .Where(temp => temp.EmployeeID == __employeeID_0)'
+2022-11-17 16:50:40.153 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t
+        WHERE t.EmployeeID == @__employeeID_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:50:40.232 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:50:40.329 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (94ms).
+2022-11-17 16:50:40.354 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:50:40.372 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:50:40.388 -07:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+WHERE "t"."EmployeeID" = @__employeeID_0
+2022-11-17 16:50:40.417 -07:00 [INF] Executed DbCommand (34ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+WHERE "t"."EmployeeID" = @__employeeID_0
+2022-11-17 16:50:40.452 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:50:40.491 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:50:40.501 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:50:40.512 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:50:40.520 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:50:40.546 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-11-17 16:50:40.553 -07:00 [DBG] No information found on request to perform content negotiation.
+2022-11-17 16:50:40.554 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 16:50:40.555 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 16:50:40.557 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 16:50:40.559 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-17 16:50:40.778 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 2689.9226ms
+2022-11-17 16:50:40.780 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:50:40.781 -07:00 [DBG] Connection id "0HMM8UQ3D3NNA" completed keep alive response.
+2022-11-17 16:50:40.789 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:50:40.795 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71 - - - 200 351 application/json;+charset=utf-8 3054.0994ms
+2022-11-17 16:51:25.943 -07:00 [DBG] Connection id "0HMM8UQ3D3NNA" received FIN.
+2022-11-17 16:51:25.963 -07:00 [DBG] Connection id "0HMM8UQ3D3NNA" sending FIN because: "The client closed the connection."
+2022-11-17 16:51:25.964 -07:00 [DBG] Connection id "0HMM8UQ3D3NNA" disconnecting.
+2022-11-17 16:51:25.969 -07:00 [DBG] Connection id "0HMM8UQ3D3NNA" stopped.
+2022-11-17 16:52:22.586 -07:00 [DBG] Connection id "0HMM8UQ3D3NNB" accepted.
+2022-11-17 16:52:22.609 -07:00 [DBG] Connection id "0HMM8UQ3D3NNB" started.
+2022-11-17 16:52:22.614 -07:00 [DBG] Connection id "0HMM8UQ3D3NNB" received FIN.
+2022-11-17 16:52:22.626 -07:00 [DBG] Connection id "0HMM8UQ3D3NNC" accepted.
+2022-11-17 16:52:22.628 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 16:52:22.629 -07:00 [DBG] Connection id "0HMM8UQ3D3NNC" started.
+2022-11-17 16:52:22.633 -07:00 [DBG] Connection id "0HMM8UQ3D3NNB" stopped.
+2022-11-17 16:52:22.635 -07:00 [DBG] Connection id "0HMM8UQ3D3NNB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 16:52:22.642 -07:00 [DBG] Connection 0HMM8UQ3D3NNC established using the following protocol: "Tls13"
+2022-11-17 16:52:22.644 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions - -
+2022-11-17 16:52:22.647 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:52:22.649 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions'
+2022-11-17 16:52:22.649 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions' is valid for the request path '/api/transactions'
+2022-11-17 16:52:22.650 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:52:22.651 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:52:22.653 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:52:22.658 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions() on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:52:22.662 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:52:22.663 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:52:22.664 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:52:22.665 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:52:22.665 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:52:22.667 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:52:22.671 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:52:27.641 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:52:27.645 -07:00 [DBG] Compiling query expression: 
+'DbSet<TimeTransaction>()'
+2022-11-17 16:52:27.647 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TimeTransaction>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 1], [Property: TimeTransaction.EndTime (DateTime?), 2], [Property: TimeTransaction.StartTime (DateTime?), 3] }
+        SELECT t.TransactionID, t.EmployeeID, t.EndTime, t.StartTime
+        FROM TimeTransactions AS t), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TimeTransaction>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 16:52:27.650 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:52:27.651 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-17 16:52:27.655 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:52:27.656 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:52:27.657 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:52:27.659 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+2022-11-17 16:52:27.660 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:52:27.661 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:52:27.662 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:52:27.663 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:52:27.663 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:52:27.664 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:52:27.665 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:52:27.665 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-11-17 16:52:27.671 -07:00 [DBG] No information found on request to perform content negotiation.
+2022-11-17 16:52:27.671 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 16:52:27.673 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 16:52:27.673 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 16:52:27.674 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-17 16:52:27.675 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 5008.0775ms
+2022-11-17 16:52:27.676 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:52:27.677 -07:00 [DBG] Connection id "0HMM8UQ3D3NNC" completed keep alive response.
+2022-11-17 16:52:27.678 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:52:27.678 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions - - - 200 701 application/json;+charset=utf-8 5033.9554ms
+2022-11-17 16:53:15.864 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71 - -
+2022-11-17 16:53:15.867 -07:00 [DBG] The request path  does not match the path filter
+2022-11-17 16:53:15.868 -07:00 [DBG] 1 candidate(s) found for the request path '/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71'
+2022-11-17 16:53:15.869 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)' with route pattern 'api/transactions/{employeeID}' is valid for the request path '/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71'
+2022-11-17 16:53:15.872 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:53:15.875 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 16:53:15.876 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:53:15.877 -07:00 [INF] Route matched with {action = "GetAllTransactions", controller = "TimeTransaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO]] GetAllTransactions(System.Guid) on controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API).
+2022-11-17 16:53:15.879 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-17 16:53:15.879 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-17 16:53:15.880 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:53:15.881 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-17 16:53:15.882 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-11-17 16:53:15.883 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:53:15.890 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.TimeTransactionController (EmployeeClock.API)
+2022-11-17 16:53:15.894 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2022-11-17 16:53:15.894 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2022-11-17 16:53:15.895 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2022-11-17 16:53:15.896 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2022-11-17 16:53:15.896 -07:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2022-11-17 16:53:15.897 -07:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2022-11-17 16:53:15.946 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2022-11-17 16:53:15.951 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-17 16:53:15.953 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-11-17 16:53:15.954 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:53:15.955 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:53:15.956 -07:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+WHERE "t"."EmployeeID" = @__employeeID_0
+2022-11-17 16:53:15.958 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."TransactionID", "t"."EmployeeID", "t"."EndTime", "t"."StartTime"
+FROM "TimeTransactions" AS "t"
+WHERE "t"."EmployeeID" = @__employeeID_0
+2022-11-17 16:53:15.960 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:53:15.961 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 16:53:15.962 -07:00 [DBG] A data reader was disposed.
+2022-11-17 16:53:15.963 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\EmployeeClock.db'.
+2022-11-17 16:53:15.968 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2022-11-17 16:53:15.970 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-11-17 16:53:15.973 -07:00 [DBG] No information found on request to perform content negotiation.
+2022-11-17 16:53:15.974 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 16:53:15.975 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 16:53:15.976 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 16:53:15.977 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeClock.DTO.TimeTransactions.TimeTransactionDTO, EmployeeClock.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-17 16:53:15.978 -07:00 [INF] Executed action EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API) in 95.7554ms
+2022-11-17 16:53:15.980 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.TimeTransactionController.GetAllTransactions (EmployeeClock.API)'
+2022-11-17 16:53:15.988 -07:00 [DBG] Connection id "0HMM8UQ3D3NNC" completed keep alive response.
+2022-11-17 16:53:15.990 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2022-11-17 16:53:15.991 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/transactions/b01273d5-4056-4100-b1e4-43b720583c71 - - - 200 351 application/json;+charset=utf-8 127.1365ms

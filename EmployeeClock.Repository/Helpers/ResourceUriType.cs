@@ -10,5 +10,7 @@ namespace EmployeeClock.Repository.Helpers
     {
         PreviousPage,
         NextPage,
+        HasNextWithEmployeeID,
+        HasPreviousWithEmployeeID,
     }
 }
