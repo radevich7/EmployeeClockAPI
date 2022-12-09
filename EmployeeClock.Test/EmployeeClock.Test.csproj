@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeClock.Repository\EmployeeClock.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

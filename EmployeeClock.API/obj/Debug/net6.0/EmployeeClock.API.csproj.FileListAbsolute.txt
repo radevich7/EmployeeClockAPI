@@ -85,3 +85,8 @@ C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\EmployeeClock.API.pdb
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\EmployeeClock.API.genruntimeconfig.cache
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\ref\EmployeeClock.API.dll
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\staticwebassets\msbuild.EmployeeClock.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\staticwebassets\msbuild.build.EmployeeClock.API.props
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.EmployeeClock.API.props
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.EmployeeClock.API.props
+C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.API\obj\Debug\net6.0\staticwebassets.pack.json
