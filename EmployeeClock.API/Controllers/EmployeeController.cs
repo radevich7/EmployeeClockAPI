@@ -14,7 +14,6 @@ namespace EmployeeClock.API.Controllers
 {
     [Route("api/employees")]
     [ApiController]
-    //[Authorize]
 
     public class EmployeeController : ControllerBase
     {
@@ -33,7 +32,7 @@ namespace EmployeeClock.API.Controllers
             _propertyCheckerService = propertyCheckerService ?? throw new ArgumentNullException(nameof(propertyCheckerService));
         }
 
-
+        [Authorize]
         [HttpGet(Name = ("GetEmployees"))]
         public async Task<IActionResult> GetAllEmployees([FromQuery] EmployeeResourceParameters resourceParameters)
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj": {}
+    "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj": {
+    "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj",
         "projectName": "EmployeeClock.DTO",
-        "projectPath": "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj",
+        "projectPath": "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj",
         "packagesPath": "C:\\Users\\Julian.Radevych\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Julian.Radevych\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

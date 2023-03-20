@@ -1,0 +1,1223 @@
+2023-03-02 16:30:00.217 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-02 16:30:00.727 -07:00 [DBG] Hosting starting
+2023-03-02 16:30:01.056 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-02 16:30:01.088 -07:00 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2023-03-02 16:30:01.093 -07:00 [DBG] Policy resolution states that a new key should be added to the key ring.
+2023-03-02 16:30:01.112 -07:00 [INF] Creating key {b0e88148-08e3-4f26-9ece-71af18985e21} with creation date 2023-03-02 23:30:01Z, activation date 2023-03-02 23:30:01Z, and expiration date 2023-05-31 23:30:01Z.
+2023-03-02 16:30:01.150 -07:00 [DBG] Descriptor deserializer type for key {b0e88148-08e3-4f26-9ece-71af18985e21} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2023-03-02 16:30:01.167 -07:00 [DBG] No key escrow sink found. Not writing key {b0e88148-08e3-4f26-9ece-71af18985e21} to escrow.
+2023-03-02 16:30:01.190 -07:00 [DBG] Encrypting to Windows DPAPI for current user account (LT-CATA-000181\Julian.Radevych).
+2023-03-02 16:30:01.220 -07:00 [INF] Writing data to file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-b0e88148-08e3-4f26-9ece-71af18985e21.xml'.
+2023-03-02 16:30:01.231 -07:00 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2023-03-02 16:30:01.237 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-b0e88148-08e3-4f26-9ece-71af18985e21.xml'.
+2023-03-02 16:30:01.256 -07:00 [DBG] Found key {b0e88148-08e3-4f26-9ece-71af18985e21}.
+2023-03-02 16:30:01.271 -07:00 [DBG] Considering key {b0e88148-08e3-4f26-9ece-71af18985e21} with expiration date 2023-05-31 23:30:01Z as default key.
+2023-03-02 16:30:01.280 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-02 16:30:01.286 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-02 16:30:01.291 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-02 16:30:01.303 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-02 16:30:01.312 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-02 16:30:01.325 -07:00 [DBG] Using key {b0e88148-08e3-4f26-9ece-71af18985e21} as the default key.
+2023-03-02 16:30:01.330 -07:00 [DBG] Key ring with default key {b0e88148-08e3-4f26-9ece-71af18985e21} was loaded during application startup.
+2023-03-02 16:30:02.239 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 854955F8A37FD604679E584CC9C45BFAF37CF0D5)
+2023-03-02 16:30:02.447 -07:00 [INF] Now listening on: https://localhost:7251
+2023-03-02 16:30:02.450 -07:00 [INF] Now listening on: http://localhost:5251
+2023-03-02 16:30:02.454 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2023-03-02 16:30:02.457 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-02 16:30:02.460 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-02 16:30:02.463 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 16:30:02.466 -07:00 [INF] Hosting environment: Development
+2023-03-02 16:30:02.469 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\
+2023-03-02 16:30:02.472 -07:00 [DBG] Hosting started
+2023-03-02 16:31:29.606 -07:00 [DBG] Connection id "0HMOREOVV6L67" received FIN.
+2023-03-02 16:31:29.658 -07:00 [DBG] Connection id "0HMOREOVV6L67" accepted.
+2023-03-02 16:31:29.670 -07:00 [DBG] Connection id "0HMOREOVV6L67" started.
+2023-03-02 16:31:29.673 -07:00 [DBG] Connection id "0HMOREOVV6L68" accepted.
+2023-03-02 16:31:29.678 -07:00 [DBG] Connection id "0HMOREOVV6L68" started.
+2023-03-02 16:31:29.720 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 16:31:29.867 -07:00 [DBG] Connection 0HMOREOVV6L68 established using the following protocol: "Tls13"
+2023-03-02 16:31:29.969 -07:00 [DBG] Connection id "0HMOREOVV6L67" stopped.
+2023-03-02 16:31:29.974 -07:00 [DBG] Connection id "0HMOREOVV6L67" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 16:31:30.062 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees - -
+2023-03-02 16:31:30.094 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-02 16:31:30.180 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 16:31:30.257 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-02 16:31:30.267 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-02 16:31:30.295 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:31:30.677 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 16:31:30.688 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:31:30.775 -07:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees(EmployeeClock.API.ResourseParameters.EmployeeResourceParameters) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 16:31:30.782 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 16:31:30.786 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 16:31:30.791 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:31:30.797 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 16:31:30.802 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:31:30.809 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:31:31.347 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-02 16:31:31.847 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:31:31.864 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2023-03-02 16:31:31.871 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' using the name '' in request data ...
+2023-03-02 16:31:31.884 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String' using the name 'OrderBy' in request data ...
+2023-03-02 16:31:31.891 -07:00 [DBG] Could not find a value in the request with name 'OrderBy' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2023-03-02 16:31:31.897 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2023-03-02 16:31:31.907 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String' using the name 'SearchQuery' in request data ...
+2023-03-02 16:31:31.914 -07:00 [DBG] Could not find a value in the request with name 'SearchQuery' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2023-03-02 16:31:31.921 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2023-03-02 16:31:31.926 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32' using the name 'PageNumber' in request data ...
+2023-03-02 16:31:31.930 -07:00 [DBG] Could not find a value in the request with name 'PageNumber' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2023-03-02 16:31:31.935 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2023-03-02 16:31:31.942 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2023-03-02 16:31:31.946 -07:00 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2023-03-02 16:31:31.951 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2023-03-02 16:31:31.955 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String' using the name 'Fields' in request data ...
+2023-03-02 16:31:31.960 -07:00 [DBG] Could not find a value in the request with name 'Fields' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2023-03-02 16:31:31.966 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2023-03-02 16:31:31.971 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:31:31.975 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:31:31.980 -07:00 [DBG] Attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2023-03-02 16:31:32.001 -07:00 [DBG] Done attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:31:32.257 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 16:31:34.500 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 16:31:35.789 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Count()'
+2023-03-02 16:31:36.453 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Employees AS e), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-03-02 16:31:36.547 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 16:31:36.710 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (154ms).
+2023-03-02 16:31:36.730 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:31:36.775 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:31:36.806 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2023-03-02 16:31:36.856 -07:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2023-03-02 16:31:36.877 -07:00 [DBG] A data reader was disposed.
+2023-03-02 16:31:36.889 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:31:36.907 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:31:36.932 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2023-03-02 16:31:37.041 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.EmployeeID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Address (string) Required, 1], [Property: Employee.DateOfBirth (DateTime) Required, 2], [Property: Employee.DateOfHire (DateTime) Required, 3], [Property: Employee.DateOfQuit (DateTime?), 4], [Property: Employee.Email (string) Required, 5], [Property: Employee.EmergencyContactName (string), 6], [Property: Employee.EmergencyContactPhone (string), 7], [Property: Employee.FirstName (string) Required MaxLength(50), 8], [Property: Employee.LastName (string) Required MaxLength(50), 9], [Property: Employee.Phone (string) Required, 10] }
+        SELECT e.EmployeeID, e.Address, e.DateOfBirth, e.DateOfHire, e.DateOfQuit, e.Email, e.EmergencyContactName, e.EmergencyContactPhone, e.FirstName, e.LastName, e.Phone
+        FROM Employees AS e
+        ORDER BY e.FirstName ASC, e.LastName ASC
+        OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2023-03-02 16:31:37.063 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 16:31:37.066 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-03-02 16:31:37.078 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:31:37.082 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:31:37.099 -07:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2023-03-02 16:31:37.116 -07:00 [INF] Executed DbCommand (30ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2023-03-02 16:31:37.171 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.256 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.261 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.264 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.268 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.271 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.275 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.279 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.283 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:31:37.289 -07:00 [DBG] A data reader was disposed.
+2023-03-02 16:31:37.291 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:31:37.295 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:31:37.401 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5126.3219ms.
+2023-03-02 16:31:37.413 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 16:31:37.425 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 16:31:37.428 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 16:31:37.431 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 16:31:37.435 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 16:31:37.441 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+2023-03-02 16:31:37.822 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) in 7003.4963ms
+2023-03-02 16:31:37.826 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:31:37.830 -07:00 [DBG] Connection id "0HMOREOVV6L68" completed keep alive response.
+2023-03-02 16:31:37.845 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 16:31:37.869 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees - - - 200 2650 application/json;+charset=utf-8 7812.8468ms
+2023-03-02 16:37:27.018 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees - -
+2023-03-02 16:37:27.021 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 16:37:27.025 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-02 16:37:27.027 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-02 16:37:27.031 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:37:27.034 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 16:37:27.042 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:37:27.045 -07:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees(EmployeeClock.API.ResourseParameters.EmployeeResourceParameters) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 16:37:27.084 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 16:37:27.088 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 16:37:27.092 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:27.097 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 16:37:27.101 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:27.106 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:37:27.111 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:37:27.161 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2023-03-02 16:37:27.165 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' using the name '' in request data ...
+2023-03-02 16:37:27.169 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String' using the name 'OrderBy' in request data ...
+2023-03-02 16:37:27.174 -07:00 [DBG] Could not find a value in the request with name 'OrderBy' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2023-03-02 16:37:27.179 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2023-03-02 16:37:27.183 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String' using the name 'SearchQuery' in request data ...
+2023-03-02 16:37:27.187 -07:00 [DBG] Could not find a value in the request with name 'SearchQuery' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2023-03-02 16:37:27.192 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2023-03-02 16:37:27.197 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32' using the name 'PageNumber' in request data ...
+2023-03-02 16:37:27.201 -07:00 [DBG] Could not find a value in the request with name 'PageNumber' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2023-03-02 16:37:27.206 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2023-03-02 16:37:27.210 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2023-03-02 16:37:27.215 -07:00 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2023-03-02 16:37:27.219 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2023-03-02 16:37:27.224 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String' using the name 'Fields' in request data ...
+2023-03-02 16:37:27.229 -07:00 [DBG] Could not find a value in the request with name 'Fields' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2023-03-02 16:37:27.234 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2023-03-02 16:37:27.238 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:37:27.242 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:37:27.246 -07:00 [DBG] Attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2023-03-02 16:37:27.249 -07:00 [DBG] Done attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:37:27.283 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 16:37:27.289 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 16:37:27.300 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 16:37:27.303 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-03-02 16:37:27.307 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:27.312 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:27.317 -07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2023-03-02 16:37:27.329 -07:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+2023-03-02 16:37:27.335 -07:00 [DBG] A data reader was disposed.
+2023-03-02 16:37:27.337 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:27.341 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:27.345 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 16:37:27.349 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2023-03-02 16:37:27.353 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:27.357 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:27.361 -07:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2023-03-02 16:37:27.368 -07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_1 OFFSET @__p_0
+2023-03-02 16:37:27.374 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.378 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.383 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.387 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.391 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.395 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.400 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.404 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.409 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:27.414 -07:00 [DBG] A data reader was disposed.
+2023-03-02 16:37:27.417 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:27.421 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:27.426 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 140.4358ms.
+2023-03-02 16:37:27.432 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 16:37:27.440 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 16:37:27.443 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 16:37:27.445 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 16:37:27.448 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 16:37:27.453 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+2023-03-02 16:37:27.458 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) in 352.0221ms
+2023-03-02 16:37:27.462 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:37:27.466 -07:00 [DBG] Connection id "0HMOREOVV6L68" completed keep alive response.
+2023-03-02 16:37:27.469 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 16:37:27.473 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees - - - 200 2650 application/json;+charset=utf-8 455.0322ms
+2023-03-02 16:37:37.369 -07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7251/api/authentication/authenticate application/json 109
+2023-03-02 16:37:37.373 -07:00 [DBG] POST requests are not supported
+2023-03-02 16:37:37.377 -07:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2023-03-02 16:37:37.381 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.AuthenticationController.Authenticate (EmployeeClock.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2023-03-02 16:37:37.386 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.AuthenticationController.Authenticate (EmployeeClock.API)'
+2023-03-02 16:37:37.393 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 16:37:37.397 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.AuthenticationController.Authenticate (EmployeeClock.API)'
+2023-03-02 16:37:37.402 -07:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationrequestBody) on controller EmployeeClock.API.Controllers.AuthenticationController (EmployeeClock.API).
+2023-03-02 16:37:37.408 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 16:37:37.414 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 16:37:37.418 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:37.424 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 16:37:37.428 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:37.433 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.AuthenticationController (EmployeeClock.API)
+2023-03-02 16:37:37.437 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.AuthenticationController (EmployeeClock.API)
+2023-03-02 16:37:37.441 -07:00 [DBG] Attempting to bind parameter 'authenticationrequestBody' of type 'EmployeeClock.API.Controllers.AuthenticationController+AuthenticationrequestBody' ...
+2023-03-02 16:37:37.448 -07:00 [DBG] Attempting to bind parameter 'authenticationrequestBody' of type 'EmployeeClock.API.Controllers.AuthenticationController+AuthenticationrequestBody' using the name '' in request data ...
+2023-03-02 16:37:37.454 -07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-02 16:37:37.459 -07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-02 16:37:37.485 -07:00 [DBG] Connection id "0HMOREOVV6L68", Request id "0HMOREOVV6L68:00000004": started reading request body.
+2023-03-02 16:37:37.489 -07:00 [DBG] Connection id "0HMOREOVV6L68", Request id "0HMOREOVV6L68:00000004": done reading request body.
+2023-03-02 16:37:37.606 -07:00 [DBG] Done attempting to bind parameter 'authenticationrequestBody' of type 'EmployeeClock.API.Controllers.AuthenticationController+AuthenticationrequestBody'.
+2023-03-02 16:37:37.610 -07:00 [DBG] Done attempting to bind parameter 'authenticationrequestBody' of type 'EmployeeClock.API.Controllers.AuthenticationController+AuthenticationrequestBody'.
+2023-03-02 16:37:37.614 -07:00 [DBG] Attempting to validate the bound parameter 'authenticationrequestBody' of type 'EmployeeClock.API.Controllers.AuthenticationController+AuthenticationrequestBody' ...
+2023-03-02 16:37:37.619 -07:00 [DBG] Done attempting to validate the bound parameter 'authenticationrequestBody' of type 'EmployeeClock.API.Controllers.AuthenticationController+AuthenticationrequestBody'.
+2023-03-02 16:37:37.647 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.AuthenticationController.Authenticate (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 16:37:37.916 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.AuthenticationController.Authenticate (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 265.3974ms.
+2023-03-02 16:37:37.920 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 16:37:37.928 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 16:37:37.930 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 16:37:37.932 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 16:37:37.934 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-02 16:37:37.937 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-02 16:37:37.942 -07:00 [INF] Executed action EmployeeClock.API.Controllers.AuthenticationController.Authenticate (EmployeeClock.API) in 508.8684ms
+2023-03-02 16:37:37.944 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.AuthenticationController.Authenticate (EmployeeClock.API)'
+2023-03-02 16:37:37.947 -07:00 [DBG] Connection id "0HMOREOVV6L68" completed keep alive response.
+2023-03-02 16:37:37.950 -07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7251/api/authentication/authenticate application/json 109 - 200 - text/plain;+charset=utf-8 581.5852ms
+2023-03-02 16:37:43.270 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?searchQuery=Karchenko - -
+2023-03-02 16:37:43.272 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 16:37:43.274 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-02 16:37:43.277 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-02 16:37:43.291 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:37:43.294 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 16:37:43.297 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:37:43.299 -07:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees(EmployeeClock.API.ResourseParameters.EmployeeResourceParameters) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 16:37:43.304 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 16:37:43.308 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 16:37:43.311 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:43.317 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 16:37:43.320 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:43.326 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:37:43.332 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:37:43.336 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2023-03-02 16:37:43.342 -07:00 [DBG] Attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' using the name '' in request data ...
+2023-03-02 16:37:43.346 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String' using the name 'OrderBy' in request data ...
+2023-03-02 16:37:43.350 -07:00 [DBG] Could not find a value in the request with name 'OrderBy' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2023-03-02 16:37:43.355 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.OrderBy' of type 'System.String'.
+2023-03-02 16:37:43.359 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String' using the name 'SearchQuery' in request data ...
+2023-03-02 16:37:43.364 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.SearchQuery' of type 'System.String'.
+2023-03-02 16:37:43.368 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32' using the name 'PageNumber' in request data ...
+2023-03-02 16:37:43.373 -07:00 [DBG] Could not find a value in the request with name 'PageNumber' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2023-03-02 16:37:43.379 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageNumber' of type 'System.Int32'.
+2023-03-02 16:37:43.384 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2023-03-02 16:37:43.389 -07:00 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2023-03-02 16:37:43.393 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.PageSize' of type 'System.Int32'.
+2023-03-02 16:37:43.398 -07:00 [DBG] Attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String' using the name 'Fields' in request data ...
+2023-03-02 16:37:43.402 -07:00 [DBG] Could not find a value in the request with name 'Fields' for binding property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2023-03-02 16:37:43.407 -07:00 [DBG] Done attempting to bind property 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters.Fields' of type 'System.String'.
+2023-03-02 16:37:43.411 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:37:43.415 -07:00 [DBG] Done attempting to bind parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:37:43.419 -07:00 [DBG] Attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters' ...
+2023-03-02 16:37:43.423 -07:00 [DBG] Done attempting to validate the bound parameter 'resourceParameters' of type 'EmployeeClock.API.ResourseParameters.EmployeeResourceParameters'.
+2023-03-02 16:37:43.453 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 16:37:43.551 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 16:37:43.566 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .Where(temp => temp.FirstName.Contains(__trimmedSearchQuery_0) || temp.LastName.Contains(__trimmedSearchQuery_0))
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Count()'
+2023-03-02 16:37:43.679 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Employees AS e
+        WHERE ((@__trimmedSearchQuery_0 == '') || (instr(e.FirstName, @__trimmedSearchQuery_0) > 0)) || ((@__trimmedSearchQuery_0 == '') || (instr(e.LastName, @__trimmedSearchQuery_0) > 0))), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-03-02 16:37:43.699 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 16:37:43.702 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-03-02 16:37:43.706 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:43.710 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:43.713 -07:00 [DBG] Executing DbCommand [Parameters=[@__trimmedSearchQuery_0='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+WHERE ((@__trimmedSearchQuery_0 = '') OR (instr("e"."FirstName", @__trimmedSearchQuery_0) > 0)) OR ((@__trimmedSearchQuery_0 = '') OR (instr("e"."LastName", @__trimmedSearchQuery_0) > 0))
+2023-03-02 16:37:43.722 -07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__trimmedSearchQuery_0='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM "Employees" AS "e"
+WHERE ((@__trimmedSearchQuery_0 = '') OR (instr("e"."FirstName", @__trimmedSearchQuery_0) > 0)) OR ((@__trimmedSearchQuery_0 = '') OR (instr("e"."LastName", @__trimmedSearchQuery_0) > 0))
+2023-03-02 16:37:43.727 -07:00 [DBG] A data reader was disposed.
+2023-03-02 16:37:43.729 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:43.732 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:43.735 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .Where(temp => temp.FirstName.Contains(__trimmedSearchQuery_0) || temp.LastName.Contains(__trimmedSearchQuery_0))
+    .OrderBy( => .FirstName)
+    .ThenBy( => .LastName)
+    .Skip(__p_1)
+    .Take(__p_2)'
+2023-03-02 16:37:43.744 -07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.EmployeeID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Address (string) Required, 1], [Property: Employee.DateOfBirth (DateTime) Required, 2], [Property: Employee.DateOfHire (DateTime) Required, 3], [Property: Employee.DateOfQuit (DateTime?), 4], [Property: Employee.Email (string) Required, 5], [Property: Employee.EmergencyContactName (string), 6], [Property: Employee.EmergencyContactPhone (string), 7], [Property: Employee.FirstName (string) Required MaxLength(50), 8], [Property: Employee.LastName (string) Required MaxLength(50), 9], [Property: Employee.Phone (string) Required, 10] }
+        SELECT e.EmployeeID, e.Address, e.DateOfBirth, e.DateOfHire, e.DateOfQuit, e.Email, e.EmergencyContactName, e.EmergencyContactPhone, e.FirstName, e.LastName, e.Phone
+        FROM Employees AS e
+        WHERE ((@__trimmedSearchQuery_0 == '') || (instr(e.FirstName, @__trimmedSearchQuery_0) > 0)) || ((@__trimmedSearchQuery_0 == '') || (instr(e.LastName, @__trimmedSearchQuery_0) > 0))
+        ORDER BY e.FirstName ASC, e.LastName ASC
+        OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+    False, 
+    False, 
+    True
+)'
+2023-03-02 16:37:43.748 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 16:37:43.751 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-03-02 16:37:43.754 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:43.757 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:43.760 -07:00 [DBG] Executing DbCommand [Parameters=[@__trimmedSearchQuery_0='?' (Size = 9), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE ((@__trimmedSearchQuery_0 = '') OR (instr("e"."FirstName", @__trimmedSearchQuery_0) > 0)) OR ((@__trimmedSearchQuery_0 = '') OR (instr("e"."LastName", @__trimmedSearchQuery_0) > 0))
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_2 OFFSET @__p_1
+2023-03-02 16:37:43.765 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__trimmedSearchQuery_0='?' (Size = 9), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE ((@__trimmedSearchQuery_0 = '') OR (instr("e"."FirstName", @__trimmedSearchQuery_0) > 0)) OR ((@__trimmedSearchQuery_0 = '') OR (instr("e"."LastName", @__trimmedSearchQuery_0) > 0))
+ORDER BY "e"."FirstName", "e"."LastName"
+LIMIT @__p_2 OFFSET @__p_1
+2023-03-02 16:37:43.770 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:43.774 -07:00 [DBG] A data reader was disposed.
+2023-03-02 16:37:43.776 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:43.779 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:43.782 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 326.2639ms.
+2023-03-02 16:37:43.786 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 16:37:43.793 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 16:37:43.795 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 16:37:43.797 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 16:37:43.799 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 16:37:43.802 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+2023-03-02 16:37:43.806 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API) in 479.9872ms
+2023-03-02 16:37:43.808 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-02 16:37:43.810 -07:00 [DBG] Connection id "0HMOREOVV6L68" completed keep alive response.
+2023-03-02 16:37:43.813 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 16:37:43.815 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?searchQuery=Karchenko - - - 200 296 application/json;+charset=utf-8 545.7185ms
+2023-03-02 16:37:48.627 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - -
+2023-03-02 16:37:48.630 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 16:37:48.633 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 16:37:48.637 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 16:37:48.642 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 16:37:48.645 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 16:37:48.648 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 16:37:48.657 -07:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 16:37:48.663 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 16:37:48.667 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 16:37:48.671 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:48.677 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 16:37:48.681 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 16:37:48.685 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:37:48.689 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 16:37:48.692 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 16:37:48.696 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-02 16:37:48.700 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 16:37:48.704 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 16:37:48.707 -07:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 16:37:48.710 -07:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 16:37:48.713 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-02 16:37:48.717 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-02 16:37:48.721 -07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-02 16:37:48.725 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 16:37:48.729 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 16:37:48.732 -07:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-02 16:37:48.735 -07:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-02 16:37:48.738 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 16:37:48.743 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name 'includeTimeTransaction' in request data ...
+2023-03-02 16:37:48.747 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 16:37:48.750 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 16:37:48.754 -07:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 16:37:48.758 -07:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 16:37:48.788 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 16:37:48.797 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 16:37:48.816 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .Include(temp => temp.TimeTransactions)
+    .Where(temp => temp.EmployeeID == __employeeID_0)
+    .FirstOrDefault()'
+2023-03-02 16:37:48.862 -07:00 [DBG] Including navigation: 'Employee.TimeTransactions'.
+2023-03-02 16:37:49.051 -07:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Employee>(
+    asyncEnumerable: new SingleQueryingEnumerable<Employee>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: Employee.EmployeeID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Address (string) Required, 1], [Property: Employee.DateOfBirth (DateTime) Required, 2], [Property: Employee.DateOfHire (DateTime) Required, 3], [Property: Employee.DateOfQuit (DateTime?), 4], [Property: Employee.Email (string) Required, 5], [Property: Employee.EmergencyContactName (string), 6], [Property: Employee.EmergencyContactPhone (string), 7], [Property: Employee.FirstName (string) Required MaxLength(50), 8], [Property: Employee.LastName (string) Required MaxLength(50), 9], [Property: Employee.Phone (string) Required, 10] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 11], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 12], [Property: TimeTransaction.EndTime (DateTime?), 13], [Property: TimeTransaction.StartTime (DateTime?), 14] }
+                3 -> 11
+            SELECT t.EmployeeID, t.Address, t.DateOfBirth, t.DateOfHire, t.DateOfQuit, t.Email, t.EmergencyContactName, t.EmergencyContactPhone, t.FirstName, t.LastName, t.Phone, t0.TransactionID, t0.EmployeeID, t0.EndTime, t0.StartTime
+            FROM 
+            (
+                SELECT TOP(1) e.EmployeeID, e.Address, e.DateOfBirth, e.DateOfHire, e.DateOfQuit, e.Email, e.EmergencyContactName, e.EmergencyContactPhone, e.FirstName, e.LastName, e.Phone
+                FROM Employees AS e
+                WHERE e.EmployeeID == @__employeeID_0
+            ) AS t
+            LEFT JOIN TimeTransactions AS t0 ON t.EmployeeID == t0.EmployeeID
+            ORDER BY t.EmployeeID ASC), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+        EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-02 16:37:49.107 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 16:37:49.111 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-03-02 16:37:49.132 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:49.139 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:49.145 -07:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 16:37:49.157 -07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 16:37:49.166 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.189 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.231 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.235 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.239 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.243 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.247 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.251 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 16:37:49.264 -07:00 [DBG] A data reader was disposed.
+2023-03-02 16:37:49.277 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 16:37:49.282 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 16:37:49.300 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 508.385ms.
+2023-03-02 16:37:49.305 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 16:37:49.311 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 16:37:49.314 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 16:37:49.316 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 16:37:49.318 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 16:37:49.321 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Dynamic.ExpandoObject'.
+2023-03-02 16:37:49.344 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 659.7412ms
+2023-03-02 16:37:49.348 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 16:37:49.351 -07:00 [DBG] Connection id "0HMOREOVV6L68" completed keep alive response.
+2023-03-02 16:37:49.354 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 16:37:49.357 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - - - 200 1446 application/json;+charset=utf-8 729.3195ms
+2023-03-02 17:18:01.506 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-02 17:18:01.889 -07:00 [DBG] Hosting starting
+2023-03-02 17:18:02.176 -07:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-02 17:18:02.192 -07:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-b0e88148-08e3-4f26-9ece-71af18985e21.xml'.
+2023-03-02 17:18:02.245 -07:00 [DBG] Found key {b0e88148-08e3-4f26-9ece-71af18985e21}.
+2023-03-02 17:18:02.284 -07:00 [DBG] Considering key {b0e88148-08e3-4f26-9ece-71af18985e21} with expiration date 2023-05-31 23:30:01Z as default key.
+2023-03-02 17:18:02.293 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-02 17:18:02.307 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-02 17:18:02.313 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-02 17:18:02.327 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-02 17:18:02.339 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-02 17:18:02.353 -07:00 [DBG] Using key {b0e88148-08e3-4f26-9ece-71af18985e21} as the default key.
+2023-03-02 17:18:02.359 -07:00 [DBG] Key ring with default key {b0e88148-08e3-4f26-9ece-71af18985e21} was loaded during application startup.
+2023-03-02 17:18:03.042 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 854955F8A37FD604679E584CC9C45BFAF37CF0D5)
+2023-03-02 17:18:03.275 -07:00 [INF] Now listening on: https://localhost:7251
+2023-03-02 17:18:03.278 -07:00 [INF] Now listening on: http://localhost:5251
+2023-03-02 17:18:03.282 -07:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2023-03-02 17:18:03.286 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-02 17:18:03.289 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-02 17:18:03.292 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 17:18:03.295 -07:00 [INF] Hosting environment: Development
+2023-03-02 17:18:03.299 -07:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\
+2023-03-02 17:18:03.302 -07:00 [DBG] Hosting started
+2023-03-02 17:20:11.989 -07:00 [DBG] Connection id "0HMORFK6T4ONM" accepted.
+2023-03-02 17:20:12.039 -07:00 [DBG] Connection id "0HMORFK6T4ONM" started.
+2023-03-02 17:20:12.179 -07:00 [DBG] Connection id "0HMORFK6T4ONN" accepted.
+2023-03-02 17:20:12.182 -07:00 [DBG] Connection id "0HMORFK6T4ONM" received FIN.
+2023-03-02 17:20:12.201 -07:00 [DBG] Connection id "0HMORFK6T4ONN" started.
+2023-03-02 17:20:12.255 -07:00 [DBG] Connection id "0HMORFK6T4ONN" received FIN.
+2023-03-02 17:20:12.270 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:20:12.270 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:20:12.505 -07:00 [DBG] Connection id "0HMORFK6T4ONN" stopped.
+2023-03-02 17:20:12.505 -07:00 [DBG] Connection id "0HMORFK6T4ONM" stopped.
+2023-03-02 17:20:12.509 -07:00 [DBG] Connection id "0HMORFK6T4ONN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:20:12.511 -07:00 [DBG] Connection id "0HMORFK6T4ONM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:23:46.057 -07:00 [DBG] Connection id "0HMORFK6T4ONO" accepted.
+2023-03-02 17:23:46.122 -07:00 [DBG] Connection id "0HMORFK6T4ONO" started.
+2023-03-02 17:23:46.189 -07:00 [DBG] Connection id "0HMORFK6T4ONO" received FIN.
+2023-03-02 17:23:46.197 -07:00 [DBG] Connection id "0HMORFK6T4ONP" accepted.
+2023-03-02 17:23:46.198 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:23:46.235 -07:00 [DBG] Connection id "0HMORFK6T4ONP" started.
+2023-03-02 17:23:46.249 -07:00 [DBG] Connection id "0HMORFK6T4ONO" stopped.
+2023-03-02 17:23:46.278 -07:00 [DBG] Connection id "0HMORFK6T4ONP" received FIN.
+2023-03-02 17:23:46.283 -07:00 [DBG] Connection id "0HMORFK6T4ONO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:23:46.280 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:23:46.324 -07:00 [DBG] Connection id "0HMORFK6T4ONP" stopped.
+2023-03-02 17:23:46.328 -07:00 [DBG] Connection id "0HMORFK6T4ONP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:19.113 -07:00 [DBG] Connection id "0HMORFK6T4ONQ" accepted.
+2023-03-02 17:27:19.147 -07:00 [DBG] Connection id "0HMORFK6T4ONR" accepted.
+2023-03-02 17:27:19.148 -07:00 [DBG] Connection id "0HMORFK6T4ONQ" started.
+2023-03-02 17:27:19.176 -07:00 [DBG] Connection id "0HMORFK6T4ONR" started.
+2023-03-02 17:27:19.224 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:19.235 -07:00 [DBG] Connection id "0HMORFK6T4ONR" received FIN.
+2023-03-02 17:27:19.204 -07:00 [DBG] Connection id "0HMORFK6T4ONQ" received FIN.
+2023-03-02 17:27:19.253 -07:00 [DBG] Connection id "0HMORFK6T4ONQ" stopped.
+2023-03-02 17:27:19.253 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:19.285 -07:00 [DBG] Connection id "0HMORFK6T4ONQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:19.293 -07:00 [DBG] Connection id "0HMORFK6T4ONR" stopped.
+2023-03-02 17:27:19.302 -07:00 [DBG] Connection id "0HMORFK6T4ONR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:27.752 -07:00 [DBG] Connection id "0HMORFK6T4ONS" accepted.
+2023-03-02 17:27:27.756 -07:00 [DBG] Connection id "0HMORFK6T4ONS" started.
+2023-03-02 17:27:27.756 -07:00 [DBG] Connection id "0HMORFK6T4ONT" accepted.
+2023-03-02 17:27:27.764 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:27.764 -07:00 [DBG] Connection id "0HMORFK6T4ONT" started.
+2023-03-02 17:27:27.771 -07:00 [DBG] Connection id "0HMORFK6T4ONS" stopped.
+2023-03-02 17:27:27.778 -07:00 [DBG] Connection id "0HMORFK6T4ONS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:27.795 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:27.802 -07:00 [DBG] Connection id "0HMORFK6T4ONT" stopped.
+2023-03-02 17:27:27.806 -07:00 [DBG] Connection id "0HMORFK6T4ONT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:27.815 -07:00 [DBG] Connection id "0HMORFK6T4ONU" accepted.
+2023-03-02 17:27:27.818 -07:00 [DBG] Connection id "0HMORFK6T4ONU" started.
+2023-03-02 17:27:27.823 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:27.834 -07:00 [DBG] Connection id "0HMORFK6T4ONU" stopped.
+2023-03-02 17:27:27.838 -07:00 [DBG] Connection id "0HMORFK6T4ONU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:28.884 -07:00 [DBG] Connection id "0HMORFK6T4ONV" accepted.
+2023-03-02 17:27:28.889 -07:00 [DBG] Connection id "0HMORFK6T4ONV" started.
+2023-03-02 17:27:28.890 -07:00 [DBG] Connection id "0HMORFK6T4OO0" accepted.
+2023-03-02 17:27:28.897 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:28.899 -07:00 [DBG] Connection id "0HMORFK6T4OO0" started.
+2023-03-02 17:27:28.907 -07:00 [DBG] Connection id "0HMORFK6T4ONV" stopped.
+2023-03-02 17:27:28.919 -07:00 [DBG] Connection id "0HMORFK6T4ONV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:28.954 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:28.963 -07:00 [DBG] Connection id "0HMORFK6T4OO0" stopped.
+2023-03-02 17:27:28.970 -07:00 [DBG] Connection id "0HMORFK6T4OO0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:28.982 -07:00 [DBG] Connection id "0HMORFK6T4OO1" accepted.
+2023-03-02 17:27:28.986 -07:00 [DBG] Connection id "0HMORFK6T4OO1" started.
+2023-03-02 17:27:28.994 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:29.005 -07:00 [DBG] Connection id "0HMORFK6T4OO1" stopped.
+2023-03-02 17:27:29.010 -07:00 [DBG] Connection id "0HMORFK6T4OO1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:34.041 -07:00 [DBG] Connection id "0HMORFK6T4OO2" accepted.
+2023-03-02 17:27:34.045 -07:00 [DBG] Connection id "0HMORFK6T4OO2" started.
+2023-03-02 17:27:34.046 -07:00 [DBG] Connection id "0HMORFK6T4OO3" accepted.
+2023-03-02 17:27:34.050 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:34.052 -07:00 [DBG] Connection id "0HMORFK6T4OO3" started.
+2023-03-02 17:27:34.058 -07:00 [DBG] Connection id "0HMORFK6T4OO2" stopped.
+2023-03-02 17:27:34.063 -07:00 [DBG] Connection id "0HMORFK6T4OO2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:34.068 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:34.074 -07:00 [DBG] Connection id "0HMORFK6T4OO3" stopped.
+2023-03-02 17:27:34.079 -07:00 [DBG] Connection id "0HMORFK6T4OO3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:34.086 -07:00 [DBG] Connection id "0HMORFK6T4OO4" accepted.
+2023-03-02 17:27:34.089 -07:00 [DBG] Connection id "0HMORFK6T4OO4" started.
+2023-03-02 17:27:34.093 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:34.100 -07:00 [DBG] Connection id "0HMORFK6T4OO4" stopped.
+2023-03-02 17:27:34.103 -07:00 [DBG] Connection id "0HMORFK6T4OO4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:34.669 -07:00 [DBG] Connection id "0HMORFK6T4OO5" accepted.
+2023-03-02 17:27:34.672 -07:00 [DBG] Connection id "0HMORFK6T4OO5" started.
+2023-03-02 17:27:34.673 -07:00 [DBG] Connection id "0HMORFK6T4OO6" accepted.
+2023-03-02 17:27:34.679 -07:00 [DBG] Connection id "0HMORFK6T4OO6" started.
+2023-03-02 17:27:34.682 -07:00 [DBG] Connection id "0HMORFK6T4OO5" received FIN.
+2023-03-02 17:27:34.683 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:34.689 -07:00 [DBG] Connection id "0HMORFK6T4OO6" received FIN.
+2023-03-02 17:27:34.690 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:34.693 -07:00 [DBG] Connection id "0HMORFK6T4OO5" stopped.
+2023-03-02 17:27:34.702 -07:00 [DBG] Connection id "0HMORFK6T4OO6" stopped.
+2023-03-02 17:27:34.704 -07:00 [DBG] Connection id "0HMORFK6T4OO5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:34.707 -07:00 [DBG] Connection id "0HMORFK6T4OO6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:45.198 -07:00 [DBG] Connection id "0HMORFK6T4OO7" accepted.
+2023-03-02 17:27:45.201 -07:00 [DBG] Connection id "0HMORFK6T4OO7" started.
+2023-03-02 17:27:45.204 -07:00 [DBG] Connection id "0HMORFK6T4OO8" accepted.
+2023-03-02 17:27:45.210 -07:00 [DBG] Connection id "0HMORFK6T4OO8" started.
+2023-03-02 17:27:45.211 -07:00 [DBG] Connection id "0HMORFK6T4OO7" received FIN.
+2023-03-02 17:27:45.211 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:45.217 -07:00 [DBG] Connection id "0HMORFK6T4OO8" received FIN.
+2023-03-02 17:27:45.219 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:45.219 -07:00 [DBG] Connection id "0HMORFK6T4OO9" accepted.
+2023-03-02 17:27:45.222 -07:00 [DBG] Connection id "0HMORFK6T4OO7" stopped.
+2023-03-02 17:27:45.229 -07:00 [DBG] Connection id "0HMORFK6T4OO8" stopped.
+2023-03-02 17:27:45.232 -07:00 [DBG] Connection id "0HMORFK6T4OO9" started.
+2023-03-02 17:27:45.234 -07:00 [DBG] Connection id "0HMORFK6T4OO7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:45.237 -07:00 [DBG] Connection id "0HMORFK6T4OO8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:45.270 -07:00 [DBG] Connection 0HMORFK6T4OO9 established using the following protocol: "Tls13"
+2023-03-02 17:27:45.384 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - -
+2023-03-02 17:27:45.454 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-02 17:27:45.527 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 17:27:45.588 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:27:45.598 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:27:45.634 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:27:45.932 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 17:27:45.941 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:27:46.019 -07:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 17:27:46.026 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 17:27:46.031 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 17:27:46.036 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:27:46.043 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 17:27:46.047 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:27:46.052 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:27:46.510 -07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-02 17:27:46.964 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:27:46.977 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:27:46.983 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-02 17:27:46.989 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:27:46.993 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:27:46.996 -07:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:27:47.004 -07:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:27:47.011 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-02 17:27:47.016 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-02 17:27:47.021 -07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.027 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.030 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.034 -07:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-02 17:27:47.038 -07:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.042 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:27:47.045 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name 'includeTimeTransaction' in request data ...
+2023-03-02 17:27:47.050 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:27:47.053 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:27:47.056 -07:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:27:47.060 -07:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:27:47.234 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 17:27:47.235 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - -
+2023-03-02 17:27:47.243 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 17:27:47.248 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:27:47.252 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:27:47.259 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:27:47.265 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 17:27:47.268 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:27:47.271 -07:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 17:27:47.286 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 17:27:47.290 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 17:27:47.294 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:27:47.300 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 17:27:47.304 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:27:47.309 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:27:47.313 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:27:47.338 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:27:47.351 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-02 17:27:47.419 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:27:47.422 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:27:47.426 -07:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:27:47.430 -07:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:27:47.434 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-02 17:27:47.438 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-02 17:27:47.443 -07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.447 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.452 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.456 -07:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-02 17:27:47.460 -07:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-02 17:27:47.464 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:27:47.467 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name 'includeTimeTransaction' in request data ...
+2023-03-02 17:27:47.472 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:27:47.475 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:27:47.479 -07:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:27:47.482 -07:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:27:47.517 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 17:27:49.236 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 17:27:49.236 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 17:27:49.409 -07:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .Include(temp => temp.TimeTransactions)
+    .Where(temp => temp.EmployeeID == __employeeID_0)
+    .FirstOrDefault()'
+2023-03-02 17:27:49.598 -07:00 [DBG] Including navigation: 'Employee.TimeTransactions'.
+2023-03-02 17:27:50.288 -07:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Employee>(
+    asyncEnumerable: new SingleQueryingEnumerable<Employee>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: Employee.EmployeeID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Address (string) Required, 1], [Property: Employee.DateOfBirth (DateTime) Required, 2], [Property: Employee.DateOfHire (DateTime) Required, 3], [Property: Employee.DateOfQuit (DateTime?), 4], [Property: Employee.Email (string) Required, 5], [Property: Employee.EmergencyContactName (string), 6], [Property: Employee.EmergencyContactPhone (string), 7], [Property: Employee.FirstName (string) Required MaxLength(50), 8], [Property: Employee.LastName (string) Required MaxLength(50), 9], [Property: Employee.Phone (string) Required, 10] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: TimeTransaction.TransactionID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 11], [Property: TimeTransaction.EmployeeID (Guid) Required FK Index, 12], [Property: TimeTransaction.EndTime (DateTime?), 13], [Property: TimeTransaction.StartTime (DateTime?), 14] }
+                3 -> 11
+            SELECT t.EmployeeID, t.Address, t.DateOfBirth, t.DateOfHire, t.DateOfQuit, t.Email, t.EmergencyContactName, t.EmergencyContactPhone, t.FirstName, t.LastName, t.Phone, t0.TransactionID, t0.EmployeeID, t0.EndTime, t0.StartTime
+            FROM 
+            (
+                SELECT TOP(1) e.EmployeeID, e.Address, e.DateOfBirth, e.DateOfHire, e.DateOfQuit, e.Email, e.EmergencyContactName, e.EmergencyContactPhone, e.FirstName, e.LastName, e.Phone
+                FROM Employees AS e
+                WHERE e.EmployeeID == @__employeeID_0
+            ) AS t
+            LEFT JOIN TimeTransactions AS t0 ON t.EmployeeID == t0.EmployeeID
+            ORDER BY t.EmployeeID ASC), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+        EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-02 17:27:50.435 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 17:27:50.435 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 17:27:50.703 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (262ms).
+2023-03-02 17:27:50.703 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (262ms).
+2023-03-02 17:27:50.737 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:27:50.737 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:27:50.778 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:27:50.778 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:27:50.809 -07:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:27:50.809 -07:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:27:50.867 -07:00 [INF] Executed DbCommand (67ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:27:50.867 -07:00 [INF] Executed DbCommand (67ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:27:50.920 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:50.920 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.018 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.020 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.055 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.055 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.059 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.062 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.065 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.068 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.072 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.075 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.079 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.082 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.084 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.087 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:27:51.104 -07:00 [DBG] A data reader was disposed.
+2023-03-02 17:27:51.104 -07:00 [DBG] A data reader was disposed.
+2023-03-02 17:27:51.122 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:27:51.122 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:27:51.136 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:27:51.136 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:27:51.182 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3934.6095ms.
+2023-03-02 17:27:51.182 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3646.7382ms.
+2023-03-02 17:27:51.193 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 17:27:51.193 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 17:27:51.207 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 17:27:51.209 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 17:27:51.210 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 17:27:51.212 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 17:27:51.214 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 17:27:51.217 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 17:27:51.220 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 17:27:51.221 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 17:27:51.224 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Dynamic.ExpandoObject'.
+2023-03-02 17:27:51.227 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Dynamic.ExpandoObject'.
+2023-03-02 17:27:51.661 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 5598.9634ms
+2023-03-02 17:27:51.661 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 4341.752ms
+2023-03-02 17:27:51.664 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:27:51.668 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:27:51.688 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 17:27:51.688 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 17:27:51.701 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - - - 200 1446 application/json;+charset=utf-8 6324.6776ms
+2023-03-02 17:27:51.701 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - - - 200 1446 application/json;+charset=utf-8 4465.3030ms
+2023-03-02 17:27:51.787 -07:00 [DBG] Connection id "0HMORFK6T4OOA" accepted.
+2023-03-02 17:27:51.790 -07:00 [DBG] Connection id "0HMORFK6T4OOA" started.
+2023-03-02 17:27:51.800 -07:00 [DBG] Connection id "0HMORFK6T4OOA" received FIN.
+2023-03-02 17:27:51.803 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:27:51.813 -07:00 [DBG] Connection id "0HMORFK6T4OOA" stopped.
+2023-03-02 17:27:51.822 -07:00 [DBG] Connection id "0HMORFK6T4OOA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:27:51.887 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7251/favicon.ico - -
+2023-03-02 17:27:51.894 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 17:27:51.906 -07:00 [DBG] No candidates found for the request path '/favicon.ico'
+2023-03-02 17:27:51.929 -07:00 [DBG] Request did not match any endpoints
+2023-03-02 17:27:51.952 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 17:27:51.962 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7251/favicon.ico - - - 404 0 - 74.5206ms
+2023-03-02 17:27:52.550 -07:00 [DBG] Connection id "0HMORFK6T4OO9" received FIN.
+2023-03-02 17:27:52.554 -07:00 [DBG] Connection id "0HMORFK6T4OO9" is closed. The last processed stream ID was 5.
+2023-03-02 17:27:52.558 -07:00 [DBG] Connection id "0HMORFK6T4OO9" sending FIN because: "The client closed the connection."
+2023-03-02 17:27:52.570 -07:00 [DBG] Connection id "0HMORFK6T4OO9" stopped.
+2023-03-02 17:29:58.744 -07:00 [DBG] Connection id "0HMORFK6T4OOB" accepted.
+2023-03-02 17:29:58.852 -07:00 [DBG] Connection id "0HMORFK6T4OOB" started.
+2023-03-02 17:29:58.928 -07:00 [DBG] Connection id "0HMORFK6T4OOB" received FIN.
+2023-03-02 17:29:58.952 -07:00 [DBG] Connection id "0HMORFK6T4OOC" accepted.
+2023-03-02 17:29:59.005 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:29:59.162 -07:00 [DBG] Connection id "0HMORFK6T4OOC" started.
+2023-03-02 17:29:59.186 -07:00 [DBG] Connection id "0HMORFK6T4OOB" stopped.
+2023-03-02 17:29:59.245 -07:00 [DBG] Connection id "0HMORFK6T4OOB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:29:59.249 -07:00 [DBG] Connection 0HMORFK6T4OOC established using the following protocol: "Tls13"
+2023-03-02 17:29:59.277 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - -
+2023-03-02 17:29:59.314 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 17:29:59.321 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:29:59.331 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:29:59.344 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:29:59.352 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 17:29:59.365 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:29:59.376 -07:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 17:29:59.428 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 17:29:59.446 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 17:29:59.459 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:29:59.474 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 17:29:59.479 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:29:59.493 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:29:59.524 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:29:59.529 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:29:59.552 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-02 17:29:59.557 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:29:59.568 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:29:59.577 -07:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:29:59.682 -07:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:29:59.747 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-02 17:29:59.755 -07:00 [DBG] Connection id "0HMORFK6T4OOD" accepted.
+2023-03-02 17:29:59.764 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-02 17:29:59.772 -07:00 [DBG] Connection id "0HMORFK6T4OOD" started.
+2023-03-02 17:29:59.784 -07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-02 17:29:59.796 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:29:59.791 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:29:59.802 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:29:59.812 -07:00 [DBG] Connection id "0HMORFK6T4OOD" stopped.
+2023-03-02 17:29:59.816 -07:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-02 17:29:59.821 -07:00 [DBG] Connection id "0HMORFK6T4OOD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:29:59.825 -07:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-02 17:29:59.836 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:29:59.841 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name 'includeTimeTransaction' in request data ...
+2023-03-02 17:29:59.847 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:29:59.851 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:29:59.870 -07:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:29:59.874 -07:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:29:59.915 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 17:30:00.065 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 17:30:00.110 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 17:30:00.121 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2023-03-02 17:30:00.126 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:30:00.131 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:30:00.141 -07:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:30:00.160 -07:00 [INF] Executed DbCommand (19ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:30:00.178 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.209 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.276 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.285 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.293 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.302 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.334 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.342 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:00.356 -07:00 [DBG] A data reader was disposed.
+2023-03-02 17:30:00.358 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:30:00.363 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:30:00.372 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 451.6652ms.
+2023-03-02 17:30:00.377 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 17:30:00.392 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 17:30:00.403 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 17:30:00.407 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 17:30:00.411 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 17:30:00.439 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Dynamic.ExpandoObject'.
+2023-03-02 17:30:00.444 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 950.6729ms
+2023-03-02 17:30:00.459 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:30:00.467 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 17:30:00.485 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - - - 200 1446 application/json;+charset=utf-8 1209.3143ms
+2023-03-02 17:30:05.300 -07:00 [DBG] Connection id "0HMORFK6T4OOE" accepted.
+2023-03-02 17:30:05.309 -07:00 [DBG] Connection id "0HMORFK6T4OOE" started.
+2023-03-02 17:30:05.334 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:30:05.427 -07:00 [DBG] Connection id "0HMORFK6T4OOE" stopped.
+2023-03-02 17:30:05.478 -07:00 [DBG] Connection id "0HMORFK6T4OOE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:30:05.526 -07:00 [DBG] Connection id "0HMORFK6T4OOF" accepted.
+2023-03-02 17:30:05.534 -07:00 [DBG] Connection id "0HMORFK6T4OOF" started.
+2023-03-02 17:30:05.541 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:30:05.553 -07:00 [DBG] Connection id "0HMORFK6T4OOF" stopped.
+2023-03-02 17:30:05.559 -07:00 [DBG] Connection id "0HMORFK6T4OOF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:30:08.825 -07:00 [DBG] Connection id "0HMORFK6T4OOC" received FIN.
+2023-03-02 17:30:08.828 -07:00 [DBG] Connection id "0HMORFK6T4OOC" is closed. The last processed stream ID was 1.
+2023-03-02 17:30:08.832 -07:00 [DBG] Connection id "0HMORFK6T4OOC" sending FIN because: "The client closed the connection."
+2023-03-02 17:30:08.838 -07:00 [DBG] Connection id "0HMORFK6T4OOC" stopped.
+2023-03-02 17:30:28.379 -07:00 [DBG] Connection id "0HMORFK6T4OOG" accepted.
+2023-03-02 17:30:28.448 -07:00 [DBG] Connection id "0HMORFK6T4OOG" started.
+2023-03-02 17:30:28.562 -07:00 [DBG] Connection id "0HMORFK6T4OOG" received FIN.
+2023-03-02 17:30:28.585 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-02 17:30:28.586 -07:00 [DBG] Connection id "0HMORFK6T4OOH" accepted.
+2023-03-02 17:30:28.596 -07:00 [DBG] Connection id "0HMORFK6T4OOG" stopped.
+2023-03-02 17:30:28.599 -07:00 [DBG] Connection id "0HMORFK6T4OOH" started.
+2023-03-02 17:30:28.609 -07:00 [DBG] Connection id "0HMORFK6T4OOG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-02 17:30:28.626 -07:00 [DBG] Connection 0HMORFK6T4OOH established using the following protocol: "Tls13"
+2023-03-02 17:30:28.695 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - -
+2023-03-02 17:30:28.706 -07:00 [DBG] The request path  does not match the path filter
+2023-03-02 17:30:28.713 -07:00 [DBG] 1 candidate(s) found for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:30:28.717 -07:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831'
+2023-03-02 17:30:28.722 -07:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:30:28.726 -07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-02 17:30:28.730 -07:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:30:28.733 -07:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-02 17:30:28.739 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-02 17:30:28.755 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-02 17:30:28.788 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:30:28.848 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-02 17:30:28.885 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-02 17:30:28.969 -07:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:30:28.981 -07:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-02 17:30:29.016 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:30:29.075 -07:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-02 17:30:29.117 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:30:29.178 -07:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:30:29.201 -07:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-02 17:30:29.220 -07:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-02 17:30:29.247 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-02 17:30:29.260 -07:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-02 17:30:29.335 -07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-02 17:30:29.362 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:30:29.375 -07:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-02 17:30:29.386 -07:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-02 17:30:29.398 -07:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-02 17:30:29.411 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:30:29.421 -07:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name 'includeTimeTransaction' in request data ...
+2023-03-02 17:30:29.427 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:30:29.440 -07:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:30:29.452 -07:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-02 17:30:29.457 -07:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-02 17:30:29.513 -07:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-02 17:30:29.518 -07:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-02 17:30:29.525 -07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-02 17:30:29.528 -07:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-03-02 17:30:29.533 -07:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:30:29.538 -07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:30:29.545 -07:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:30:29.553 -07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."EmployeeID", "t"."Address", "t"."DateOfBirth", "t"."DateOfHire", "t"."DateOfQuit", "t"."Email", "t"."EmergencyContactName", "t"."EmergencyContactPhone", "t"."FirstName", "t"."LastName", "t"."Phone", "t0"."TransactionID", "t0"."EmployeeID", "t0"."EndTime", "t0"."StartTime"
+FROM (
+    SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+    FROM "Employees" AS "e"
+    WHERE "e"."EmployeeID" = @__employeeID_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "TimeTransactions" AS "t0" ON "t"."EmployeeID" = "t0"."EmployeeID"
+ORDER BY "t"."EmployeeID"
+2023-03-02 17:30:29.561 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.567 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.571 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.576 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.580 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.584 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.588 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.592 -07:00 [DBG] Context 'EmployeeClockContext' started tracking 'TimeTransaction' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-02 17:30:29.597 -07:00 [DBG] A data reader was disposed.
+2023-03-02 17:30:29.611 -07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-02 17:30:29.618 -07:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-02 17:30:29.623 -07:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 105.4619ms.
+2023-03-02 17:30:29.629 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-02 17:30:29.641 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-03-02 17:30:29.644 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-02 17:30:29.648 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-02 17:30:29.652 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-02 17:30:29.657 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Dynamic.ExpandoObject'.
+2023-03-02 17:30:29.661 -07:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 692.5114ms
+2023-03-02 17:30:29.668 -07:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-02 17:30:29.671 -07:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-02 17:30:29.675 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/employees/2e773a8e-a50b-4c05-aa8c-4dfdb332d831?includeTimeTransaction=true - - - 200 1446 application/json;+charset=utf-8 980.0144ms
+2023-03-02 17:30:38.850 -07:00 [DBG] Connection id "0HMORFK6T4OOH" received FIN.
+2023-03-02 17:30:38.854 -07:00 [DBG] Connection id "0HMORFK6T4OOH" is closed. The last processed stream ID was 1.
+2023-03-02 17:30:38.858 -07:00 [DBG] Connection id "0HMORFK6T4OOH" sending FIN because: "The client closed the connection."
+2023-03-02 17:30:38.864 -07:00 [DBG] Connection id "0HMORFK6T4OOH" stopped.

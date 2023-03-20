@@ -10,3 +10,15 @@ C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.DTO\obj\Debug
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.DTO\obj\Debug\net6.0\refint\EmployeeClock.DTO.dll
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.pdb
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.DTO\obj\Debug\net6.0\ref\EmployeeClock.DTO.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\bin\Debug\net6.0\EmployeeClock.DTO.deps.json
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\bin\Debug\net6.0\EmployeeClock.DTO.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\bin\Debug\net6.0\EmployeeClock.DTO.pdb
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.csproj.AssemblyReference.cache
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.AssemblyInfoInputs.cache
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.AssemblyInfo.cs
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\refint\EmployeeClock.DTO.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\EmployeeClock.DTO.pdb
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.DTO\obj\Debug\net6.0\ref\EmployeeClock.DTO.dll

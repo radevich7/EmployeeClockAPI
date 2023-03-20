@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vT+SSIOUBnLLvuAs1iwhqaz5dy1rXCO2yXmICU2rNqjB5LXZ/yuYBljE8rFm1mD+6qacwiT7rJmc9UIdDOHQtQ==",
+  "dgSpecHash": "ZR40KBqmfcUYyUma+z9v6bZWyXs+lVa5hoz6dV1Qh/h6wUli1IFhvf9T0hHooqm02u1Wi7osesVvjQ8dx7J/Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.Repository\\EmployeeClock.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.Repository\\EmployeeClock.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Julian.Radevych\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Julian.Radevych\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N455dpyNdxAv4cvnfgmASX91+U8GqCtl8CcKCf9zokVKoGeTDornesjwnQDsLk3YU2MkoL22+V6YtgvhsLNMaw==",
+  "dgSpecHash": "HpiJ5sMzQtPb7TXY0eCzr8a9aUr+AuP7SLxzqYMqRM1kZEAgoZSyu4GLxs1rUmjDw0op8kbM/+psKYSWvmTzag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj",
+  "projectFilePath": "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.DTO\\EmployeeClock.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

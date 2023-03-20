@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gJT1ioKdaTLUelKJaNiy4yXUxbvS5rCamcNDdoznnJweO26bDLW4OccKk/wSvaxjFqiYhigPSyZQ9vml/FA7DA==",
+  "dgSpecHash": "RJUa0LX1hTGFtbIaqru12Hz8tyjHeDQcEbXi1g3ahlrrTePKj1bVTil1CzKzVfjQH6Uyl116MyHimWl44RHg3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Julian.Radevych\\Desktop\\study\\EmployeeClock\\EmployeeClock.Entities\\EmployeeClock.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Julian.Radevych\\Desktop\\Study\\EmployeeClockAPI\\EmployeeClock.Entities\\EmployeeClock.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

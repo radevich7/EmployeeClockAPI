@@ -1,0 +1,482 @@
+2023-03-17 16:29:14.933 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-17 16:29:15.363 -06:00 [DBG] Hosting starting
+2023-03-17 16:29:15.676 -06:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-17 16:29:15.700 -06:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-b0e88148-08e3-4f26-9ece-71af18985e21.xml'.
+2023-03-17 16:29:15.746 -06:00 [DBG] Found key {b0e88148-08e3-4f26-9ece-71af18985e21}.
+2023-03-17 16:29:15.808 -06:00 [DBG] Considering key {b0e88148-08e3-4f26-9ece-71af18985e21} with expiration date 2023-05-31 23:30:01Z as default key.
+2023-03-17 16:29:15.819 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-17 16:29:15.829 -06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-17 16:29:15.836 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-17 16:29:15.846 -06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-17 16:29:15.855 -06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-17 16:29:15.865 -06:00 [DBG] Using key {b0e88148-08e3-4f26-9ece-71af18985e21} as the default key.
+2023-03-17 16:29:15.869 -06:00 [DBG] Key ring with default key {b0e88148-08e3-4f26-9ece-71af18985e21} was loaded during application startup.
+2023-03-17 16:29:17.062 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 854955F8A37FD604679E584CC9C45BFAF37CF0D5)
+2023-03-17 16:29:17.239 -06:00 [INF] Now listening on: https://localhost:7251
+2023-03-17 16:29:17.262 -06:00 [INF] Now listening on: http://localhost:5251
+2023-03-17 16:29:17.268 -06:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2023-03-17 16:29:17.271 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-17 16:29:17.274 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-17 16:29:17.277 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-17 16:29:17.281 -06:00 [INF] Hosting environment: Development
+2023-03-17 16:29:17.284 -06:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\
+2023-03-17 16:29:17.289 -06:00 [DBG] Hosting started
+2023-03-17 16:29:52.161 -06:00 [DBG] Connection id "0HMP76SG4OJ29" received FIN.
+2023-03-17 16:29:52.192 -06:00 [DBG] Connection id "0HMP76SG4OJ29" accepted.
+2023-03-17 16:29:52.229 -06:00 [DBG] Connection id "0HMP76SG4OJ29" started.
+2023-03-17 16:29:52.231 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" accepted.
+2023-03-17 16:29:52.237 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" started.
+2023-03-17 16:29:52.270 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-17 16:29:52.390 -06:00 [DBG] Connection 0HMP76SG4OJ2A established using the following protocol: "Tls13"
+2023-03-17 16:29:52.476 -06:00 [DBG] Connection id "0HMP76SG4OJ29" stopped.
+2023-03-17 16:29:52.479 -06:00 [DBG] Connection id "0HMP76SG4OJ29" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-17 16:29:52.513 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - -
+2023-03-17 16:29:52.528 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-17 16:29:52.562 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:29:52.596 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:29:52.604 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:29:52.624 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:29:52.913 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:29:52.924 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:29:52.935 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:29:52.943 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:29:52.949 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - - - 401 0 - 438.2605ms
+2023-03-17 16:31:23.437 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - -
+2023-03-17 16:31:23.441 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:31:23.445 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:31:23.449 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:31:23.455 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:31:25.192 -06:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenDecryptionFailedException: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.ValidateDecryption(JwtTokenDecryptionParameters decryptionParameters, Boolean decryptionSucceeded, Boolean algorithmNotSupportedByCryptoProvider, StringBuilder exceptionStrings, StringBuilder keysAttempted)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.DecryptJwtToken(SecurityToken securityToken, TokenValidationParameters validationParameters, JwtTokenDecryptionParameters decryptionParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-17 16:31:25.220 -06:00 [INF] Bearer was not authenticated. Failure message: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-03-17 16:31:25.227 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:31:25.238 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:31:25.251 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:31:25.257 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - - - 401 0 - 1820.4547ms
+2023-03-17 16:31:38.630 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - -
+2023-03-17 16:31:38.633 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:31:38.636 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:31:38.641 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:31:38.645 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:31:38.649 -06:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenDecryptionFailedException: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.ValidateDecryption(JwtTokenDecryptionParameters decryptionParameters, Boolean decryptionSucceeded, Boolean algorithmNotSupportedByCryptoProvider, StringBuilder exceptionStrings, StringBuilder keysAttempted)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.DecryptJwtToken(SecurityToken securityToken, TokenValidationParameters validationParameters, JwtTokenDecryptionParameters decryptionParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-17 16:31:38.653 -06:00 [INF] Bearer was not authenticated. Failure message: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-03-17 16:31:38.656 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:31:38.658 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:31:38.660 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:31:38.663 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - - - 401 0 - 32.5862ms
+2023-03-17 16:31:58.417 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - -
+2023-03-17 16:31:58.420 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:31:58.423 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:31:58.425 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:31:58.428 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:31:58.433 -06:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenDecryptionFailedException: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.ValidateDecryption(JwtTokenDecryptionParameters decryptionParameters, Boolean decryptionSucceeded, Boolean algorithmNotSupportedByCryptoProvider, StringBuilder exceptionStrings, StringBuilder keysAttempted)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.DecryptJwtToken(SecurityToken securityToken, TokenValidationParameters validationParameters, JwtTokenDecryptionParameters decryptionParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-17 16:31:58.439 -06:00 [INF] Bearer was not authenticated. Failure message: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-03-17 16:31:58.441 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:31:58.443 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:31:58.445 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:31:58.449 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - - - 401 0 - 31.6009ms
+2023-03-17 16:32:00.277 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - -
+2023-03-17 16:32:00.279 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:32:00.283 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:32:00.285 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:32:00.288 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:32:00.292 -06:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenDecryptionFailedException: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.ValidateDecryption(JwtTokenDecryptionParameters decryptionParameters, Boolean decryptionSucceeded, Boolean algorithmNotSupportedByCryptoProvider, StringBuilder exceptionStrings, StringBuilder keysAttempted)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.DecryptJwtToken(SecurityToken securityToken, TokenValidationParameters validationParameters, JwtTokenDecryptionParameters decryptionParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-17 16:32:00.296 -06:00 [INF] Bearer was not authenticated. Failure message: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-03-17 16:32:00.298 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:32:00.300 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:32:00.302 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:32:00.304 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - - - 401 0 - 27.3305ms
+2023-03-17 16:32:20.955 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - -
+2023-03-17 16:32:20.966 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:32:20.969 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:32:20.974 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:32:20.979 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:32:20.983 -06:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenDecryptionFailedException: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.ValidateDecryption(JwtTokenDecryptionParameters decryptionParameters, Boolean decryptionSucceeded, Boolean algorithmNotSupportedByCryptoProvider, StringBuilder exceptionStrings, StringBuilder keysAttempted)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.DecryptJwtToken(SecurityToken securityToken, TokenValidationParameters validationParameters, JwtTokenDecryptionParameters decryptionParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-17 16:32:20.986 -06:00 [INF] Bearer was not authenticated. Failure message: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-03-17 16:32:20.989 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:32:20.990 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:32:20.992 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:32:20.994 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?pageSize=1 - - - 401 0 - 39.3730ms
+2023-03-17 16:32:30.798 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees/d28888e9-2cd1-473a-a23f-e38cb23f9b23 - -
+2023-03-17 16:32:30.801 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:32:30.803 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees/d28888e9-2cd1-473a-a23f-e38cb23f9b23'
+2023-03-17 16:32:30.806 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/d28888e9-2cd1-473a-a23f-e38cb23f9b23'
+2023-03-17 16:32:30.810 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:32:30.812 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:32:30.817 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:32:30.822 -06:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:32:30.859 -06:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-17 16:32:30.866 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-17 16:32:30.870 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-17 16:32:30.876 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-17 16:32:30.882 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-17 16:32:30.885 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-17 16:32:30.890 -06:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-17 16:32:31.169 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-17 16:32:31.425 -06:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-17 16:32:31.439 -06:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-17 16:32:31.443 -06:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-17 16:32:31.450 -06:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:32:31.454 -06:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:32:31.457 -06:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-17 16:32:31.462 -06:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:32:31.468 -06:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-17 16:32:31.472 -06:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-17 16:32:31.476 -06:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-17 16:32:31.482 -06:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-17 16:32:31.487 -06:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-17 16:32:31.491 -06:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-17 16:32:31.495 -06:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-17 16:32:31.501 -06:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-17 16:32:31.506 -06:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name '' in request data ...
+2023-03-17 16:32:31.510 -06:00 [DBG] Could not find a value in the request with name '' for binding parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:32:31.517 -06:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:32:31.521 -06:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:32:31.526 -06:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-17 16:32:31.532 -06:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:32:31.689 -06:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-17 16:32:32.743 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-17 16:32:32.830 -06:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .Where(temp => temp.EmployeeID == __employeeID_0)
+    .FirstOrDefault()'
+2023-03-17 16:32:33.165 -06:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Employee>(
+    asyncEnumerable: new SingleQueryingEnumerable<Employee>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.EmployeeID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Address (string) Required, 1], [Property: Employee.DateOfBirth (DateTime) Required, 2], [Property: Employee.DateOfHire (DateTime) Required, 3], [Property: Employee.DateOfQuit (DateTime?), 4], [Property: Employee.Email (string) Required, 5], [Property: Employee.EmergencyContactName (string), 6], [Property: Employee.EmergencyContactPhone (string), 7], [Property: Employee.FirstName (string) Required MaxLength(50), 8], [Property: Employee.LastName (string) Required MaxLength(50), 9], [Property: Employee.Phone (string) Required, 10] }
+            SELECT TOP(1) e.EmployeeID, e.Address, e.DateOfBirth, e.DateOfHire, e.DateOfQuit, e.Email, e.EmergencyContactName, e.EmergencyContactPhone, e.FirstName, e.LastName, e.Phone
+            FROM Employees AS e
+            WHERE e.EmployeeID == @__employeeID_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+        EmployeeClock.Repository.DBContext.EmployeeClockContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-17 16:32:33.244 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-17 16:32:33.541 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (294ms).
+2023-03-17 16:32:33.565 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-17 16:32:33.592 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-17 16:32:33.612 -06:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE "e"."EmployeeID" = @__employeeID_0
+LIMIT 1
+2023-03-17 16:32:33.661 -06:00 [INF] Executed DbCommand (53ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE "e"."EmployeeID" = @__employeeID_0
+LIMIT 1
+2023-03-17 16:32:33.680 -06:00 [DBG] A data reader was disposed.
+2023-03-17 16:32:33.692 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-17 16:32:33.707 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-17 16:32:33.721 -06:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 2019.0357ms.
+2023-03-17 16:32:33.732 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-17 16:32:33.745 -06:00 [DBG] No information found on request to perform content negotiation.
+2023-03-17 16:32:33.749 -06:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2023-03-17 16:32:33.758 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-03-17 16:32:33.763 -06:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-03-17 16:32:33.930 -06:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 3036.0453ms
+2023-03-17 16:32:33.935 -06:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:32:33.938 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:32:33.947 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-17 16:32:33.956 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees/d28888e9-2cd1-473a-a23f-e38cb23f9b23 - - - 404 161 application/problem+json;+charset=utf-8 3157.7836ms
+2023-03-17 16:32:43.753 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?searchQuery=Karchenko - -
+2023-03-17 16:32:43.757 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:32:43.760 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:32:43.763 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:32:43.768 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:32:43.772 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:32:43.775 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:32:43.777 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:32:43.780 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:32:43.784 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?searchQuery=Karchenko - - - 401 0 - 31.2652ms
+2023-03-17 16:32:45.374 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees?searchQuery=Karchenko - -
+2023-03-17 16:32:45.376 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:32:45.379 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:32:45.382 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:32:45.384 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:32:45.386 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:32:45.389 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:32:45.391 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:32:45.394 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:32:45.397 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees?searchQuery=Karchenko - - - 401 0 - 22.8506ms
+2023-03-17 16:33:34.315 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35 - -
+2023-03-17 16:33:34.326 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:33:34.329 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35'
+2023-03-17 16:33:34.332 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35'
+2023-03-17 16:33:34.336 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:33:34.339 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:33:34.341 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:33:34.344 -06:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:33:34.348 -06:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-17 16:33:34.354 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-17 16:33:34.357 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-17 16:33:34.360 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-17 16:33:34.366 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-17 16:33:34.370 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-17 16:33:34.374 -06:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-17 16:33:34.382 -06:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-17 16:33:34.428 -06:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-17 16:33:34.430 -06:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-17 16:33:34.433 -06:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:33:34.436 -06:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:33:34.438 -06:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-17 16:33:34.441 -06:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:33:34.443 -06:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-17 16:33:34.445 -06:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-17 16:33:34.448 -06:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-17 16:33:34.452 -06:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-17 16:33:34.456 -06:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-17 16:33:34.459 -06:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-17 16:33:34.461 -06:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-17 16:33:34.463 -06:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-17 16:33:34.467 -06:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name '' in request data ...
+2023-03-17 16:33:34.471 -06:00 [DBG] Could not find a value in the request with name '' for binding parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:33:34.474 -06:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:33:34.479 -06:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:33:34.485 -06:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-17 16:33:34.487 -06:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:33:34.508 -06:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-17 16:33:34.513 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-17 16:33:34.522 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-17 16:33:34.525 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-03-17 16:33:34.527 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-17 16:33:34.529 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-17 16:33:34.533 -06:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE "e"."EmployeeID" = @__employeeID_0
+LIMIT 1
+2023-03-17 16:33:34.540 -06:00 [INF] Executed DbCommand (7ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE "e"."EmployeeID" = @__employeeID_0
+LIMIT 1
+2023-03-17 16:33:34.571 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-17 16:33:34.619 -06:00 [DBG] A data reader was disposed.
+2023-03-17 16:33:34.623 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-17 16:33:34.629 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-17 16:33:34.651 -06:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 139.6564ms.
+2023-03-17 16:33:34.659 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-17 16:33:34.667 -06:00 [DBG] No information found on request to perform content negotiation.
+2023-03-17 16:33:34.670 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-17 16:33:34.672 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-17 16:33:34.675 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-17 16:33:34.679 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Dynamic.ExpandoObject'.
+2023-03-17 16:33:34.697 -06:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 322.9247ms
+2023-03-17 16:33:34.704 -06:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:33:34.708 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:33:34.711 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-17 16:33:34.715 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35 - - - 200 311 application/json;+charset=utf-8 399.8717ms
+2023-03-17 16:34:30.563 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees - -
+2023-03-17 16:34:30.570 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:34:30.571 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:34:30.574 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:34:30.577 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:34:30.579 -06:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenDecryptionFailedException: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.ValidateDecryption(JwtTokenDecryptionParameters decryptionParameters, Boolean decryptionSucceeded, Boolean algorithmNotSupportedByCryptoProvider, StringBuilder exceptionStrings, StringBuilder keysAttempted)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.DecryptJwtToken(SecurityToken securityToken, TokenValidationParameters validationParameters, JwtTokenDecryptionParameters decryptionParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-17 16:34:30.584 -06:00 [INF] Bearer was not authenticated. Failure message: IDX10609: Decryption failed. No Keys tried: token: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-03-17 16:34:30.587 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:34:30.588 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:34:30.590 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:34:30.592 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees - - - 401 0 - 32.3340ms
+2023-03-17 16:34:53.903 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35 - -
+2023-03-17 16:34:53.910 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:34:53.912 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35'
+2023-03-17 16:34:53.914 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)' with route pattern 'api/employees/{employeeID}' is valid for the request path '/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35'
+2023-03-17 16:34:53.917 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:34:53.919 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:34:53.921 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:34:53.923 -06:00 [INF] Executing endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:34:53.926 -06:00 [INF] Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(System.Guid, System.String, Boolean) on controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API).
+2023-03-17 16:34:53.929 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-17 16:34:53.933 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-17 16:34:53.937 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-17 16:34:53.942 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-17 16:34:53.946 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-03-17 16:34:53.950 -06:00 [DBG] Executing controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-17 16:34:53.956 -06:00 [DBG] Executed controller factory for controller EmployeeClock.API.Controllers.EmployeeController (EmployeeClock.API)
+2023-03-17 16:34:53.959 -06:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' ...
+2023-03-17 16:34:53.962 -06:00 [DBG] Attempting to bind parameter 'employeeID' of type 'System.Guid' using the name 'employeeID' in request data ...
+2023-03-17 16:34:53.967 -06:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:34:53.970 -06:00 [DBG] Done attempting to bind parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:34:53.972 -06:00 [DBG] Attempting to validate the bound parameter 'employeeID' of type 'System.Guid' ...
+2023-03-17 16:34:53.974 -06:00 [DBG] Done attempting to validate the bound parameter 'employeeID' of type 'System.Guid'.
+2023-03-17 16:34:53.977 -06:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' ...
+2023-03-17 16:34:53.979 -06:00 [DBG] Attempting to bind parameter 'fields' of type 'System.String' using the name '' in request data ...
+2023-03-17 16:34:53.984 -06:00 [DBG] Could not find a value in the request with name '' for binding parameter 'fields' of type 'System.String'.
+2023-03-17 16:34:53.989 -06:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-17 16:34:53.993 -06:00 [DBG] Done attempting to bind parameter 'fields' of type 'System.String'.
+2023-03-17 16:34:53.996 -06:00 [DBG] Attempting to validate the bound parameter 'fields' of type 'System.String' ...
+2023-03-17 16:34:54.001 -06:00 [DBG] Done attempting to validate the bound parameter 'fields' of type 'System.String'.
+2023-03-17 16:34:54.005 -06:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-17 16:34:54.008 -06:00 [DBG] Attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean' using the name '' in request data ...
+2023-03-17 16:34:54.011 -06:00 [DBG] Could not find a value in the request with name '' for binding parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:34:54.015 -06:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:34:54.018 -06:00 [DBG] Done attempting to bind parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:34:54.021 -06:00 [DBG] Attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean' ...
+2023-03-17 16:34:54.024 -06:00 [DBG] Done attempting to validate the bound parameter 'includeTimeTransaction' of type 'System.Boolean'.
+2023-03-17 16:34:54.039 -06:00 [INF] Executing action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) - Validation state: "Valid"
+2023-03-17 16:34:54.078 -06:00 [INF] Entity Framework Core 6.0.10 initialized 'EmployeeClockContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.10' with options: None
+2023-03-17 16:34:54.086 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-17 16:34:54.089 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-03-17 16:34:54.093 -06:00 [DBG] Opening connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-17 16:34:54.096 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-17 16:34:54.100 -06:00 [DBG] Executing DbCommand [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE "e"."EmployeeID" = @__employeeID_0
+LIMIT 1
+2023-03-17 16:34:54.106 -06:00 [INF] Executed DbCommand (6ms) [Parameters=[@__employeeID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."EmployeeID", "e"."Address", "e"."DateOfBirth", "e"."DateOfHire", "e"."DateOfQuit", "e"."Email", "e"."EmergencyContactName", "e"."EmergencyContactPhone", "e"."FirstName", "e"."LastName", "e"."Phone"
+FROM "Employees" AS "e"
+WHERE "e"."EmployeeID" = @__employeeID_0
+LIMIT 1
+2023-03-17 16:34:54.112 -06:00 [DBG] Context 'EmployeeClockContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-17 16:34:54.118 -06:00 [DBG] A data reader was disposed.
+2023-03-17 16:34:54.121 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\EmployeeClock.db'.
+2023-03-17 16:34:54.124 -06:00 [DBG] Closed connection to database 'main' on server 'EmployeeClock.db'.
+2023-03-17 16:34:54.127 -06:00 [INF] Executed action method EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 84.1016ms.
+2023-03-17 16:34:54.131 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-17 16:34:54.137 -06:00 [DBG] No information found on request to perform content negotiation.
+2023-03-17 16:34:54.140 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-17 16:34:54.141 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-17 16:34:54.145 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-17 16:34:54.151 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Dynamic.ExpandoObject'.
+2023-03-17 16:34:54.154 -06:00 [INF] Executed action EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API) in 204.2648ms
+2023-03-17 16:34:54.161 -06:00 [INF] Executed endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetEmployee (EmployeeClock.API)'
+2023-03-17 16:34:54.166 -06:00 [DBG] Connection id "0HMP76SG4OJ2A" completed keep alive response.
+2023-03-17 16:34:54.168 -06:00 [DBG] 'EmployeeClockContext' disposed.
+2023-03-17 16:34:54.172 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees/d28888e9-2ba9-473a-a40f-e38cb54f9b35 - - - 200 311 application/json;+charset=utf-8 268.5919ms
+2023-03-17 16:36:08.296 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-17 16:36:08.512 -06:00 [DBG] Hosting starting
+2023-03-17 16:36:08.597 -06:00 [INF] User profile is available. Using 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-17 16:36:08.607 -06:00 [DBG] Reading data from file 'C:\Users\Julian.Radevych\AppData\Local\ASP.NET\DataProtection-Keys\key-b0e88148-08e3-4f26-9ece-71af18985e21.xml'.
+2023-03-17 16:36:08.629 -06:00 [DBG] Found key {b0e88148-08e3-4f26-9ece-71af18985e21}.
+2023-03-17 16:36:08.649 -06:00 [DBG] Considering key {b0e88148-08e3-4f26-9ece-71af18985e21} with expiration date 2023-05-31 23:30:01Z as default key.
+2023-03-17 16:36:08.658 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-17 16:36:08.667 -06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-17 16:36:08.672 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-17 16:36:08.682 -06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-17 16:36:08.689 -06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-17 16:36:08.695 -06:00 [DBG] Using key {b0e88148-08e3-4f26-9ece-71af18985e21} as the default key.
+2023-03-17 16:36:08.698 -06:00 [DBG] Key ring with default key {b0e88148-08e3-4f26-9ece-71af18985e21} was loaded during application startup.
+2023-03-17 16:36:09.131 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 854955F8A37FD604679E584CC9C45BFAF37CF0D5)
+2023-03-17 16:36:09.306 -06:00 [INF] Now listening on: https://localhost:7251
+2023-03-17 16:36:09.308 -06:00 [INF] Now listening on: http://localhost:5251
+2023-03-17 16:36:09.311 -06:00 [DBG] Loaded hosting startup assembly EmployeeClock.API
+2023-03-17 16:36:09.314 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-17 16:36:09.317 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-17 16:36:09.320 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-17 16:36:09.323 -06:00 [INF] Hosting environment: Development
+2023-03-17 16:36:09.327 -06:00 [INF] Content root path: C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.API\
+2023-03-17 16:36:09.330 -06:00 [DBG] Hosting started
+2023-03-17 16:40:11.634 -06:00 [DBG] Connection id "0HMP7728OGKOG" received FIN.
+2023-03-17 16:40:11.680 -06:00 [DBG] Connection id "0HMP7728OGKOG" accepted.
+2023-03-17 16:40:11.692 -06:00 [DBG] Connection id "0HMP7728OGKOG" started.
+2023-03-17 16:40:11.696 -06:00 [DBG] Connection id "0HMP7728OGKOH" accepted.
+2023-03-17 16:40:11.701 -06:00 [DBG] Connection id "0HMP7728OGKOH" started.
+2023-03-17 16:40:11.735 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-17 16:40:11.877 -06:00 [DBG] Connection id "0HMP7728OGKOG" stopped.
+2023-03-17 16:40:11.880 -06:00 [DBG] Connection 0HMP7728OGKOH established using the following protocol: "Tls13"
+2023-03-17 16:40:11.884 -06:00 [DBG] Connection id "0HMP7728OGKOG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-17 16:40:11.967 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7251/api/employees - -
+2023-03-17 16:40:11.985 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-17 16:40:12.088 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:40:12.202 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:40:12.213 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:40:12.240 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:40:12.445 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:40:12.466 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:40:12.495 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:40:12.513 -06:00 [DBG] Connection id "0HMP7728OGKOH" completed keep alive response.
+2023-03-17 16:40:12.526 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7251/api/employees - - - 401 0 - 561.9893ms
+2023-03-17 16:43:33.865 -06:00 [DBG] Connection id "0HMP7728OGKOI" accepted.
+2023-03-17 16:43:33.902 -06:00 [DBG] Connection id "0HMP7728OGKOI" started.
+2023-03-17 16:43:33.939 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/employees - -
+2023-03-17 16:43:33.944 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:43:33.984 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:43:33.989 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:43:33.995 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:43:34.001 -06:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2023-03-17 16:43:34.005 -06:00 [INF] CORS policy execution successful.
+2023-03-17 16:43:34.014 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:43:34.018 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:43:34.021 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:43:34.030 -06:00 [DBG] Connection id "0HMP7728OGKOI" completed keep alive response.
+2023-03-17 16:43:34.036 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/employees - - - 401 0 - 96.9326ms
+2023-03-17 16:43:37.531 -06:00 [DBG] Connection id "0HMP7728OGKOI" received FIN.
+2023-03-17 16:43:37.584 -06:00 [DBG] Connection id "0HMP7728OGKOI" sending FIN because: "The client closed the connection."
+2023-03-17 16:43:37.588 -06:00 [DBG] Connection id "0HMP7728OGKOI" disconnecting.
+2023-03-17 16:43:37.593 -06:00 [DBG] Connection id "0HMP7728OGKOI" stopped.
+2023-03-17 16:44:12.761 -06:00 [DBG] Connection id "0HMP7728OGKOJ" accepted.
+2023-03-17 16:44:12.796 -06:00 [DBG] Connection id "0HMP7728OGKOJ" started.
+2023-03-17 16:44:12.823 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5251/api/employees - -
+2023-03-17 16:44:12.826 -06:00 [DBG] The request path  does not match the path filter
+2023-03-17 16:44:12.831 -06:00 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2023-03-17 16:44:12.835 -06:00 [DBG] Endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2023-03-17 16:44:12.842 -06:00 [DBG] Request matched endpoint 'EmployeeClock.API.Controllers.EmployeeController.GetAllEmployees (EmployeeClock.API)'
+2023-03-17 16:44:12.847 -06:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2023-03-17 16:44:12.851 -06:00 [INF] CORS policy execution successful.
+2023-03-17 16:44:12.856 -06:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-17 16:44:12.861 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-17 16:44:12.865 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-17 16:44:12.869 -06:00 [DBG] Connection id "0HMP7728OGKOJ" completed keep alive response.
+2023-03-17 16:44:12.896 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5251/api/employees - - - 401 0 - 73.3182ms
+2023-03-17 16:44:17.591 -06:00 [DBG] Connection id "0HMP7728OGKOJ" received FIN.
+2023-03-17 16:44:17.597 -06:00 [DBG] Connection id "0HMP7728OGKOJ" sending FIN because: "The client closed the connection."
+2023-03-17 16:44:17.616 -06:00 [DBG] Connection id "0HMP7728OGKOJ" disconnecting.
+2023-03-17 16:44:17.619 -06:00 [DBG] Connection id "0HMP7728OGKOJ" stopped.

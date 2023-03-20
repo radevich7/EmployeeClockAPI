@@ -10,3 +10,15 @@ C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Entities\obj\
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Entities\obj\Debug\net6.0\refint\EmployeeClock.Entities.dll
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.pdb
 C:\Users\Julian.Radevych\Desktop\study\EmployeeClock\EmployeeClock.Entities\obj\Debug\net6.0\ref\EmployeeClock.Entities.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\bin\Debug\net6.0\EmployeeClock.Entities.deps.json
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\bin\Debug\net6.0\EmployeeClock.Entities.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\bin\Debug\net6.0\EmployeeClock.Entities.pdb
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.csproj.AssemblyReference.cache
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.AssemblyInfoInputs.cache
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.AssemblyInfo.cs
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\refint\EmployeeClock.Entities.dll
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\EmployeeClock.Entities.pdb
+C:\Users\Julian.Radevych\Desktop\Study\EmployeeClockAPI\EmployeeClock.Entities\obj\Debug\net6.0\ref\EmployeeClock.Entities.dll
